@@ -1,0 +1,3189 @@
+fileFormatVersion: 2
+guid: 909a4ea99ff3b4db29d4e088d56d56ab
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: camera1
+  - first:
+      1: 100002
+    second: group1
+  - first:
+      1: 100004
+    second: //RootNode
+  - first:
+      1: 100006
+    second: kangroo_rig_0003:AimEye
+  - first:
+      1: 100008
+    second: kangroo_rig_0003:AimFollowEye
+  - first:
+      1: 100010
+    second: kangroo_rig_0003:AimFollowOffEye
+  - first:
+      1: 100012
+    second: kangroo_rig_0003:AimFollowOnEye
+  - first:
+      1: 100014
+    second: kangroo_rig_0003:AimOffsetEye
+  - first:
+      1: 100016
+    second: kangroo_rig_0003:AimSystem
+  - first:
+      1: 100018
+    second: kangroo_rig_0003:AlignIKToAnkle_L
+  - first:
+      1: 100020
+    second: kangroo_rig_0003:AlignIKToAnkle_R
+  - first:
+      1: 100022
+    second: kangroo_rig_0003:AlignIKToWrist_L
+  - first:
+      1: 100024
+    second: kangroo_rig_0003:AlignIKToWrist_R
+  - first:
+      1: 100026
+    second: kangroo_rig_0003:Ankle_L
+  - first:
+      1: 100028
+    second: kangroo_rig_0003:Ankle_R
+  - first:
+      1: 100030
+    second: kangroo_rig_0003:BendSystem
+  - first:
+      1: 100032
+    second: kangroo_rig_0003:Chest_M
+  - first:
+      1: 100034
+    second: kangroo_rig_0003:ConstraintSystem
+  - first:
+      1: 100036
+    second: kangroo_rig_0003:DeformationSystem
+  - first:
+      1: 100038
+    second: kangroo_rig_0003:DrivingSystem
+  - first:
+      1: 100040
+    second: kangroo_rig_0003:DynamicSystem
+  - first:
+      1: 100042
+    second: kangroo_rig_0003:Elbow_L
+  - first:
+      1: 100044
+    second: kangroo_rig_0003:Elbow_R
+  - first:
+      1: 100046
+    second: kangroo_rig_0003:Eye_L
+  - first:
+      1: 100048
+    second: kangroo_rig_0003:Eye_R
+  - first:
+      1: 100050
+    second: kangroo_rig_0003:EyeEnd_L
+  - first:
+      1: 100052
+    second: kangroo_rig_0003:EyeEnd_R
+  - first:
+      1: 100054
+    second: kangroo_rig_0003:FitSkeleton
+  - first:
+      1: 100056
+    second: kangroo_rig_0003:FKAnkle_L
+  - first:
+      1: 100058
+    second: kangroo_rig_0003:FKAnkle_R
+  - first:
+      1: 100060
+    second: kangroo_rig_0003:FKElbow_L
+  - first:
+      1: 100062
+    second: kangroo_rig_0003:FKElbow_R
+  - first:
+      1: 100064
+    second: kangroo_rig_0003:FKExtraAnkle_L
+  - first:
+      1: 100066
+    second: kangroo_rig_0003:FKExtraAnkle_R
+  - first:
+      1: 100068
+    second: kangroo_rig_0003:FKExtraElbow_L
+  - first:
+      1: 100070
+    second: kangroo_rig_0003:FKExtraElbow_R
+  - first:
+      1: 100072
+    second: kangroo_rig_0003:FKExtraHip_L
+  - first:
+      1: 100074
+    second: kangroo_rig_0003:FKExtraHip_R
+  - first:
+      1: 100076
+    second: kangroo_rig_0003:FKExtraIndexFinger1_L
+  - first:
+      1: 100078
+    second: kangroo_rig_0003:FKExtraIndexFinger1_R
+  - first:
+      1: 100080
+    second: kangroo_rig_0003:FKExtraKnee_L
+  - first:
+      1: 100082
+    second: kangroo_rig_0003:FKExtraKnee_R
+  - first:
+      1: 100084
+    second: kangroo_rig_0003:FKExtraMiddleFinger1_L
+  - first:
+      1: 100086
+    second: kangroo_rig_0003:FKExtraMiddleFinger1_R
+  - first:
+      1: 100088
+    second: kangroo_rig_0003:FKExtraNeck_M
+  - first:
+      1: 100090
+    second: kangroo_rig_0003:FKExtraPinkyFinger1_L
+  - first:
+      1: 100092
+    second: kangroo_rig_0003:FKExtraPinkyFinger1_R
+  - first:
+      1: 100094
+    second: kangroo_rig_0003:FKExtraRingFinger1_L
+  - first:
+      1: 100096
+    second: kangroo_rig_0003:FKExtraRingFinger1_R
+  - first:
+      1: 100098
+    second: kangroo_rig_0003:FKExtraRoot_M
+  - first:
+      1: 100100
+    second: kangroo_rig_0003:FKExtraScapula_L
+  - first:
+      1: 100102
+    second: kangroo_rig_0003:FKExtraScapula_R
+  - first:
+      1: 100104
+    second: kangroo_rig_0003:FKExtraShoulder_L
+  - first:
+      1: 100106
+    second: kangroo_rig_0003:FKExtraShoulder_R
+  - first:
+      1: 100108
+    second: kangroo_rig_0003:FKExtraThumbFinger1_L
+  - first:
+      1: 100110
+    second: kangroo_rig_0003:FKExtraThumbFinger1_R
+  - first:
+      1: 100112
+    second: kangroo_rig_0003:FKExtraToes_L
+  - first:
+      1: 100114
+    second: kangroo_rig_0003:FKExtraToes_R
+  - first:
+      1: 100116
+    second: kangroo_rig_0003:FKExtraWrist_L
+  - first:
+      1: 100118
+    second: kangroo_rig_0003:FKExtraWrist_R
+  - first:
+      1: 100120
+    second: kangroo_rig_0003:FKHip_L
+  - first:
+      1: 100122
+    second: kangroo_rig_0003:FKHip_R
+  - first:
+      1: 100124
+    second: kangroo_rig_0003:FKIKMixElbow_L
+  - first:
+      1: 100126
+    second: kangroo_rig_0003:FKIKMixElbow_R
+  - first:
+      1: 100128
+    second: kangroo_rig_0003:FKIKParentConstraintArm_L
+  - first:
+      1: 100130
+    second: kangroo_rig_0003:FKIKParentConstraintArm_R
+  - first:
+      1: 100132
+    second: kangroo_rig_0003:FKIKParentConstraintLeg_L
+  - first:
+      1: 100134
+    second: kangroo_rig_0003:FKIKParentConstraintLeg_R
+  - first:
+      1: 100136
+    second: kangroo_rig_0003:FKIKParentConstraintSpine_M
+  - first:
+      1: 100138
+    second: kangroo_rig_0003:FKIKSystem
+  - first:
+      1: 100140
+    second: kangroo_rig_0003:FKKnee_L
+  - first:
+      1: 100142
+    second: kangroo_rig_0003:FKKnee_R
+  - first:
+      1: 100144
+    second: kangroo_rig_0003:FKOffsetAnkle_L
+  - first:
+      1: 100146
+    second: kangroo_rig_0003:FKOffsetAnkle_R
+  - first:
+      1: 100148
+    second: kangroo_rig_0003:FKOffsetElbow_L
+  - first:
+      1: 100150
+    second: kangroo_rig_0003:FKOffsetElbow_R
+  - first:
+      1: 100152
+    second: kangroo_rig_0003:FKOffsetHip_L
+  - first:
+      1: 100154
+    second: kangroo_rig_0003:FKOffsetHip_R
+  - first:
+      1: 100156
+    second: kangroo_rig_0003:FKOffsetIndexFinger1_L
+  - first:
+      1: 100158
+    second: kangroo_rig_0003:FKOffsetIndexFinger1_R
+  - first:
+      1: 100160
+    second: kangroo_rig_0003:FKOffsetKnee_L
+  - first:
+      1: 100162
+    second: kangroo_rig_0003:FKOffsetKnee_R
+  - first:
+      1: 100164
+    second: kangroo_rig_0003:FKOffsetMiddleFinger1_L
+  - first:
+      1: 100166
+    second: kangroo_rig_0003:FKOffsetMiddleFinger1_R
+  - first:
+      1: 100168
+    second: kangroo_rig_0003:FKOffsetNeck_M
+  - first:
+      1: 100170
+    second: kangroo_rig_0003:FKOffsetPinkyFinger1_L
+  - first:
+      1: 100172
+    second: kangroo_rig_0003:FKOffsetPinkyFinger1_R
+  - first:
+      1: 100174
+    second: kangroo_rig_0003:FKOffsetRingFinger1_L
+  - first:
+      1: 100176
+    second: kangroo_rig_0003:FKOffsetRingFinger1_R
+  - first:
+      1: 100178
+    second: kangroo_rig_0003:FKOffsetRoot_M
+  - first:
+      1: 100180
+    second: kangroo_rig_0003:FKOffsetScapula_L
+  - first:
+      1: 100182
+    second: kangroo_rig_0003:FKOffsetScapula_R
+  - first:
+      1: 100184
+    second: kangroo_rig_0003:FKOffsetShoulder_L
+  - first:
+      1: 100186
+    second: kangroo_rig_0003:FKOffsetShoulder_R
+  - first:
+      1: 100188
+    second: kangroo_rig_0003:FKOffsetThumbFinger1_L
+  - first:
+      1: 100190
+    second: kangroo_rig_0003:FKOffsetThumbFinger1_R
+  - first:
+      1: 100192
+    second: kangroo_rig_0003:FKOffsetToes_L
+  - first:
+      1: 100194
+    second: kangroo_rig_0003:FKOffsetToes_R
+  - first:
+      1: 100196
+    second: kangroo_rig_0003:FKOffsetWrist_L
+  - first:
+      1: 100198
+    second: kangroo_rig_0003:FKOffsetWrist_R
+  - first:
+      1: 100200
+    second: kangroo_rig_0003:FKParentConstraintToChest_M
+  - first:
+      1: 100202
+    second: kangroo_rig_0003:FKParentConstraintToRoot_M
+  - first:
+      1: 100204
+    second: kangroo_rig_0003:FKParentConstraintToScapula_L
+  - first:
+      1: 100206
+    second: kangroo_rig_0003:FKParentConstraintToScapula_R
+  - first:
+      1: 100208
+    second: kangroo_rig_0003:FKParentConstraintToWrist_L
+  - first:
+      1: 100210
+    second: kangroo_rig_0003:FKParentConstraintToWrist_R
+  - first:
+      1: 100212
+    second: kangroo_rig_0003:FKShoulder_L
+  - first:
+      1: 100214
+    second: kangroo_rig_0003:FKShoulder_R
+  - first:
+      1: 100216
+    second: kangroo_rig_0003:FKSystem
+  - first:
+      1: 100218
+    second: kangroo_rig_0003:FKToes_L
+  - first:
+      1: 100220
+    second: kangroo_rig_0003:FKToes_R
+  - first:
+      1: 100222
+    second: kangroo_rig_0003:FKWrist_L
+  - first:
+      1: 100224
+    second: kangroo_rig_0003:FKWrist_R
+  - first:
+      1: 100226
+    second: kangroo_rig_0003:FKXAnkle_L
+  - first:
+      1: 100228
+    second: kangroo_rig_0003:FKXAnkle_R
+  - first:
+      1: 100230
+    second: kangroo_rig_0003:FKXElbow_L
+  - first:
+      1: 100232
+    second: kangroo_rig_0003:FKXElbow_R
+  - first:
+      1: 100234
+    second: kangroo_rig_0003:FKXHip_L
+  - first:
+      1: 100236
+    second: kangroo_rig_0003:FKXHip_R
+  - first:
+      1: 100238
+    second: kangroo_rig_0003:FKXKnee_L
+  - first:
+      1: 100240
+    second: kangroo_rig_0003:FKXKnee_R
+  - first:
+      1: 100242
+    second: kangroo_rig_0003:FKXShoulder_L
+  - first:
+      1: 100244
+    second: kangroo_rig_0003:FKXShoulder_R
+  - first:
+      1: 100246
+    second: kangroo_rig_0003:FKXToes_L
+  - first:
+      1: 100248
+    second: kangroo_rig_0003:FKXToes_R
+  - first:
+      1: 100250
+    second: kangroo_rig_0003:FKXWrist_L
+  - first:
+      1: 100252
+    second: kangroo_rig_0003:FKXWrist_R
+  - first:
+      1: 100254
+    second: kangroo_rig_0003:front1
+  - first:
+      1: 100256
+    second: kangroo_rig_0003:Geometry
+  - first:
+      1: 100258
+    second: kangroo_rig_0003:GlobalHead_M
+  - first:
+      1: 100260
+    second: kangroo_rig_0003:GlobalOffsetHead_M
+  - first:
+      1: 100262
+    second: kangroo_rig_0003:GlobalSystem
+  - first:
+      1: 100264
+    second: kangroo_rig_0003:Group
+  - first:
+      1: 100266
+    second: kangroo_rig_0003:Head_M
+  - first:
+      1: 100268
+    second: kangroo_rig_0003:HeadEnd_M
+  - first:
+      1: 100270
+    second: kangroo_rig_0003:Hip_L
+  - first:
+      1: 100272
+    second: kangroo_rig_0003:Hip_R
+  - first:
+      1: 100274
+    second: kangroo_rig_0003:IKCurve
+  - first:
+      1: 100276
+    second: kangroo_rig_0003:IKdistanceArm_L
+  - first:
+      1: 100278
+    second: kangroo_rig_0003:IKdistanceArm_R
+  - first:
+      1: 100280
+    second: kangroo_rig_0003:IKdistanceLeg_L
+  - first:
+      1: 100282
+    second: kangroo_rig_0003:IKdistanceLeg_R
+  - first:
+      1: 100284
+    second: kangroo_rig_0003:IKExtraArm_L
+  - first:
+      1: 100286
+    second: kangroo_rig_0003:IKExtraArm_R
+  - first:
+      1: 100288
+    second: kangroo_rig_0003:IKExtraLeg_L
+  - first:
+      1: 100290
+    second: kangroo_rig_0003:IKExtraLeg_R
+  - first:
+      1: 100292
+    second: kangroo_rig_0003:IKExtraSpine1_M
+  - first:
+      1: 100294
+    second: kangroo_rig_0003:IKExtraSpine2_M
+  - first:
+      1: 100296
+    second: kangroo_rig_0003:IKfake0Spine_M
+  - first:
+      1: 100298
+    second: kangroo_rig_0003:IKfake1Spine_M
+  - first:
+      1: 100300
+    second: kangroo_rig_0003:IKFake1UpLocSpine_M
+  - first:
+      1: 100302
+    second: kangroo_rig_0003:IKfake2Spine_M
+  - first:
+      1: 100304
+    second: kangroo_rig_0003:IKfake3Spine_M
+  - first:
+      1: 100306
+    second: kangroo_rig_0003:IKFollow
+  - first:
+      1: 100308
+    second: kangroo_rig_0003:IKHandle
+  - first:
+      1: 100310
+    second: kangroo_rig_0003:IKJoints
+  - first:
+      1: 100312
+    second: kangroo_rig_0003:IKMessure
+  - first:
+      1: 100314
+    second: kangroo_rig_0003:IKMessureFromHip_L
+  - first:
+      1: 100316
+    second: kangroo_rig_0003:IKMessureFromHip_R
+  - first:
+      1: 100318
+    second: kangroo_rig_0003:IKMessureFromShoulder_L
+  - first:
+      1: 100320
+    second: kangroo_rig_0003:IKMessureFromShoulder_R
+  - first:
+      1: 100322
+    second: kangroo_rig_0003:IKmessureLoc1Arm_L
+  - first:
+      1: 100324
+    second: kangroo_rig_0003:IKmessureLoc1Arm_R
+  - first:
+      1: 100326
+    second: kangroo_rig_0003:IKmessureLoc1Leg_L
+  - first:
+      1: 100328
+    second: kangroo_rig_0003:IKmessureLoc1Leg_R
+  - first:
+      1: 100330
+    second: kangroo_rig_0003:IKmessureLoc2Arm_L
+  - first:
+      1: 100332
+    second: kangroo_rig_0003:IKmessureLoc2Arm_R
+  - first:
+      1: 100334
+    second: kangroo_rig_0003:IKmessureLoc2Leg_L
+  - first:
+      1: 100336
+    second: kangroo_rig_0003:IKmessureLoc2Leg_R
+  - first:
+      1: 100338
+    second: kangroo_rig_0003:IKOffsetArm_L
+  - first:
+      1: 100340
+    second: kangroo_rig_0003:IKOffsetArm_LFollow
+  - first:
+      1: 100342
+    second: kangroo_rig_0003:IKOffsetArm_LFollowNoScale
+  - first:
+      1: 100344
+    second: kangroo_rig_0003:IKOffsetArm_LStatic
+  - first:
+      1: 100346
+    second: kangroo_rig_0003:IKOffsetArm_R
+  - first:
+      1: 100348
+    second: kangroo_rig_0003:IKOffsetArm_RFollow
+  - first:
+      1: 100350
+    second: kangroo_rig_0003:IKOffsetArm_RFollowNoScale
+  - first:
+      1: 100352
+    second: kangroo_rig_0003:IKOffsetArm_RStatic
+  - first:
+      1: 100354
+    second: kangroo_rig_0003:IKOffsetLeg_L
+  - first:
+      1: 100356
+    second: kangroo_rig_0003:IKOffsetLeg_R
+  - first:
+      1: 100358
+    second: kangroo_rig_0003:IKOffsetSpine1_M
+  - first:
+      1: 100360
+    second: kangroo_rig_0003:IKOffsetSpine2_M
+  - first:
+      1: 100362
+    second: kangroo_rig_0003:IKParentConstraintHip_L
+  - first:
+      1: 100364
+    second: kangroo_rig_0003:IKParentConstraintHip_R
+  - first:
+      1: 100366
+    second: kangroo_rig_0003:IKParentConstraintRoot_M
+  - first:
+      1: 100368
+    second: kangroo_rig_0003:IKParentConstraintShoulder_L
+  - first:
+      1: 100370
+    second: kangroo_rig_0003:IKParentConstraintShoulder_R
+  - first:
+      1: 100372
+    second: kangroo_rig_0003:IKScalerChest_M
+  - first:
+      1: 100374
+    second: kangroo_rig_0003:IKScalerRoot_M
+  - first:
+      1: 100376
+    second: kangroo_rig_0003:IKScalerSpine1_M
+  - first:
+      1: 100378
+    second: kangroo_rig_0003:IKSpChest_M
+  - first:
+      1: 100380
+    second: kangroo_rig_0003:IKSpChestFollowOffset_M
+  - first:
+      1: 100382
+    second: kangroo_rig_0003:IKSpine0AlignTo_M
+  - first:
+      1: 100384
+    second: kangroo_rig_0003:IKSpine1_M
+  - first:
+      1: 100386
+    second: kangroo_rig_0003:IKSpine2_M
+  - first:
+      1: 100388
+    second: kangroo_rig_0003:IKSpine2AlignTo_M
+  - first:
+      1: 100390
+    second: kangroo_rig_0003:IKSpine2AlignUnIKTwistTo_M
+  - first:
+      1: 100392
+    second: kangroo_rig_0003:IKSpine2AlignUnIKTwistToOffset_M
+  - first:
+      1: 100394
+    second: kangroo_rig_0003:IKSpineCurve_M
+  - first:
+      1: 100396
+    second: kangroo_rig_0003:IKSpineHandle_M
+  - first:
+      1: 100398
+    second: kangroo_rig_0003:IKSpineLocator0_M
+  - first:
+      1: 100400
+    second: kangroo_rig_0003:IKSpineLocator1_M
+  - first:
+      1: 100402
+    second: kangroo_rig_0003:IKSpineLocator2_M
+  - first:
+      1: 100404
+    second: kangroo_rig_0003:IKSpineLocator3_M
+  - first:
+      1: 100406
+    second: kangroo_rig_0003:IKSpRoot_M
+  - first:
+      1: 100408
+    second: kangroo_rig_0003:IKSpRootFollowOffset_M
+  - first:
+      1: 100410
+    second: kangroo_rig_0003:IKSpSpine1_M
+  - first:
+      1: 100412
+    second: kangroo_rig_0003:IKSpSpine1FollowOffset_M
+  - first:
+      1: 100414
+    second: kangroo_rig_0003:IKSpSpineOffset_M
+  - first:
+      1: 100416
+    second: kangroo_rig_0003:IKStatic
+  - first:
+      1: 100418
+    second: kangroo_rig_0003:IKStiffOrientSpine1_M
+  - first:
+      1: 100420
+    second: kangroo_rig_0003:IKStiffOrientSpine2_M
+  - first:
+      1: 100422
+    second: kangroo_rig_0003:IKSystem
+  - first:
+      1: 100424
+    second: kangroo_rig_0003:IKX2Chest_M
+  - first:
+      1: 100426
+    second: kangroo_rig_0003:IKX2Elbow_L
+  - first:
+      1: 100428
+    second: kangroo_rig_0003:IKX2Root_M
+  - first:
+      1: 100430
+    second: kangroo_rig_0003:IKX2Shoulder_L
+  - first:
+      1: 100432
+    second: kangroo_rig_0003:IKX2Spine1_M
+  - first:
+      1: 100434
+    second: kangroo_rig_0003:IKX2Wrist_L
+  - first:
+      1: 100436
+    second: kangroo_rig_0003:IKXChest_M
+  - first:
+      1: 100438
+    second: kangroo_rig_0003:IKXElbow_L
+  - first:
+      1: 100440
+    second: kangroo_rig_0003:IKXOffsetHip_L
+  - first:
+      1: 100442
+    second: kangroo_rig_0003:IKXOffsetHip_R
+  - first:
+      1: 100444
+    second: kangroo_rig_0003:IKXOffsetRoot_M
+  - first:
+      1: 100446
+    second: kangroo_rig_0003:IKXOffsetShoulder_L
+  - first:
+      1: 100448
+    second: kangroo_rig_0003:IKXOffsetShoulder_R
+  - first:
+      1: 100450
+    second: kangroo_rig_0003:IKXRoot_M
+  - first:
+      1: 100452
+    second: kangroo_rig_0003:IKXShoulder_L
+  - first:
+      1: 100454
+    second: kangroo_rig_0003:IKXSpine1_M
+  - first:
+      1: 100456
+    second: kangroo_rig_0003:IKXWrist_L
+  - first:
+      1: 100458
+    second: kangroo_rig_0003:Jaw_M
+  - first:
+      1: 100460
+    second: kangroo_rig_0003:JawEnd_M
+  - first:
+      1: 100462
+    second: kangroo_rig_0003:kangaroo_body:final:pSphere3
+  - first:
+      1: 100464
+    second: kangroo_rig_0003:kangaroo_body:polySurface1
+  - first:
+      1: 100466
+    second: kangroo_rig_0003:kangaroo_body:polySurface2
+  - first:
+      1: 100468
+    second: kangroo_rig_0003:kangaroo_body:polySurface3
+  - first:
+      1: 100470
+    second: kangroo_rig_0003:kangaroo_body:polySurface4
+  - first:
+      1: 100472
+    second: kangroo_rig_0003:kangaroo_body:polySurface5
+  - first:
+      1: 100474
+    second: kangroo_rig_0003:kangaroo_body:transform1
+  - first:
+      1: 100476
+    second: kangroo_rig_0003:Knee_L
+  - first:
+      1: 100478
+    second: kangroo_rig_0003:Knee_R
+  - first:
+      1: 100480
+    second: kangroo_rig_0003:L_jnt_ear
+  - first:
+      1: 100482
+    second: kangroo_rig_0003:L_jnt_ear1
+  - first:
+      1: 100484
+    second: kangroo_rig_0003:left
+  - first:
+      1: 100486
+    second: kangroo_rig_0003:LegLockConstrained
+  - first:
+      1: 100488
+    second: kangroo_rig_0003:Main
+  - first:
+      1: 100490
+    second: kangroo_rig_0003:MiddleFinger1_L
+  - first:
+      1: 100492
+    second: kangroo_rig_0003:MiddleFinger1_R
+  - first:
+      1: 100494
+    second: kangroo_rig_0003:MiddleFinger2_L
+  - first:
+      1: 100496
+    second: kangroo_rig_0003:MiddleFinger2_R
+  - first:
+      1: 100498
+    second: kangroo_rig_0003:MiddleFinger3_L
+  - first:
+      1: 100500
+    second: kangroo_rig_0003:MiddleFinger3_R
+  - first:
+      1: 100502
+    second: kangroo_rig_0003:MiddleFinger4_L
+  - first:
+      1: 100504
+    second: kangroo_rig_0003:MiddleFinger4_R
+  - first:
+      1: 100506
+    second: kangroo_rig_0003:MotionSystem
+  - first:
+      1: 100508
+    second: kangroo_rig_0003:Neck_M
+  - first:
+      1: 100510
+    second: kangroo_rig_0003:PoleAimLeg_L
+  - first:
+      1: 100512
+    second: kangroo_rig_0003:PoleAimLeg_R
+  - first:
+      1: 100514
+    second: kangroo_rig_0003:PoleAnnotationArm_L
+  - first:
+      1: 100516
+    second: kangroo_rig_0003:PoleArm_L
+  - first:
+      1: 100518
+    second: kangroo_rig_0003:PoleExtraArm_L
+  - first:
+      1: 100520
+    second: kangroo_rig_0003:PoleExtraArm_R
+  - first:
+      1: 100522
+    second: kangroo_rig_0003:PoleExtraLeg_L
+  - first:
+      1: 100524
+    second: kangroo_rig_0003:PoleExtraLeg_R
+  - first:
+      1: 100526
+    second: kangroo_rig_0003:PoleOffsetArm_L
+  - first:
+      1: 100528
+    second: kangroo_rig_0003:PoleOffsetArm_LStatic
+  - first:
+      1: 100530
+    second: kangroo_rig_0003:PoleOffsetArm_R
+  - first:
+      1: 100532
+    second: kangroo_rig_0003:PoleOffsetArm_RStatic
+  - first:
+      1: 100534
+    second: kangroo_rig_0003:PoleOffsetLeg_L
+  - first:
+      1: 100536
+    second: kangroo_rig_0003:PoleOffsetLeg_LFollow
+  - first:
+      1: 100538
+    second: kangroo_rig_0003:PoleOffsetLeg_LFollowNoScale
+  - first:
+      1: 100540
+    second: kangroo_rig_0003:PoleOffsetLeg_LStatic
+  - first:
+      1: 100542
+    second: kangroo_rig_0003:PoleOffsetLeg_R
+  - first:
+      1: 100544
+    second: kangroo_rig_0003:PoleOffsetLeg_RFollow
+  - first:
+      1: 100546
+    second: kangroo_rig_0003:PoleOffsetLeg_RFollowNoScale
+  - first:
+      1: 100548
+    second: kangroo_rig_0003:PoleOffsetLeg_RStatic
+  - first:
+      1: 100550
+    second: kangroo_rig_0003:R_jnt_ear
+  - first:
+      1: 100552
+    second: kangroo_rig_0003:R_jnt_ear1
+  - first:
+      1: 100554
+    second: kangroo_rig_0003:Root_M
+  - first:
+      1: 100556
+    second: kangroo_rig_0003:RootExtraX_M
+  - first:
+      1: 100558
+    second: kangroo_rig_0003:RootOffsetX_M
+  - first:
+      1: 100560
+    second: kangroo_rig_0003:RootSystem
+  - first:
+      1: 100562
+    second: kangroo_rig_0003:Scapula_L
+  - first:
+      1: 100564
+    second: kangroo_rig_0003:Scapula_R
+  - first:
+      1: 100566
+    second: kangroo_rig_0003:SDK1FKIndexFinger1_L
+  - first:
+      1: 100568
+    second: kangroo_rig_0003:SDK1FKIndexFinger1_R
+  - first:
+      1: 100570
+    second: kangroo_rig_0003:SDK1FKMiddleFinger1_L
+  - first:
+      1: 100572
+    second: kangroo_rig_0003:SDK1FKMiddleFinger1_R
+  - first:
+      1: 100574
+    second: kangroo_rig_0003:SDK1FKPinkyFinger1_L
+  - first:
+      1: 100576
+    second: kangroo_rig_0003:SDK1FKPinkyFinger1_R
+  - first:
+      1: 100578
+    second: kangroo_rig_0003:SDK1FKRingFinger1_L
+  - first:
+      1: 100580
+    second: kangroo_rig_0003:SDK1FKRingFinger1_R
+  - first:
+      1: 100582
+    second: kangroo_rig_0003:SDK2FKIndexFinger1_L
+  - first:
+      1: 100584
+    second: kangroo_rig_0003:SDK2FKIndexFinger1_R
+  - first:
+      1: 100586
+    second: kangroo_rig_0003:SDK2FKPinkyFinger1_L
+  - first:
+      1: 100588
+    second: kangroo_rig_0003:SDK2FKPinkyFinger1_R
+  - first:
+      1: 100590
+    second: kangroo_rig_0003:SDK2FKRingFinger1_L
+  - first:
+      1: 100592
+    second: kangroo_rig_0003:SDK2FKRingFinger1_R
+  - first:
+      1: 100594
+    second: kangroo_rig_0003:Shoulder_L
+  - first:
+      1: 100596
+    second: kangroo_rig_0003:Shoulder_R
+  - first:
+      1: 100598
+    second: kangroo_rig_0003:ShoulderPart1_L
+  - first:
+      1: 100600
+    second: kangroo_rig_0003:ShoulderPart1_R
+  - first:
+      1: 100602
+    second: kangroo_rig_0003:ShoulderPart2_L
+  - first:
+      1: 100604
+    second: kangroo_rig_0003:ShoulderPart2_R
+  - first:
+      1: 100606
+    second: kangroo_rig_0003:Spine1_M
+  - first:
+      1: 100608
+    second: kangroo_rig_0003:tail
+  - first:
+      1: 100610
+    second: kangroo_rig_0003:tail1
+  - first:
+      1: 100612
+    second: kangroo_rig_0003:tail2
+  - first:
+      1: 100614
+    second: kangroo_rig_0003:tail3
+  - first:
+      1: 100616
+    second: kangroo_rig_0003:tail4
+  - first:
+      1: 100618
+    second: kangroo_rig_0003:ThumbFinger1_L
+  - first:
+      1: 100620
+    second: kangroo_rig_0003:ThumbFinger1_R
+  - first:
+      1: 100622
+    second: kangroo_rig_0003:ThumbFinger2_L
+  - first:
+      1: 100624
+    second: kangroo_rig_0003:ThumbFinger2_R
+  - first:
+      1: 100626
+    second: kangroo_rig_0003:ThumbFinger3_L
+  - first:
+      1: 100628
+    second: kangroo_rig_0003:ThumbFinger3_R
+  - first:
+      1: 100630
+    second: kangroo_rig_0003:ThumbFinger4_L
+  - first:
+      1: 100632
+    second: kangroo_rig_0003:ThumbFinger4_R
+  - first:
+      1: 100634
+    second: kangroo_rig_0003:Toes_L
+  - first:
+      1: 100636
+    second: kangroo_rig_0003:Toes_R
+  - first:
+      1: 100638
+    second: kangroo_rig_0003:ToesEnd_L
+  - first:
+      1: 100640
+    second: kangroo_rig_0003:ToesEnd_R
+  - first:
+      1: 100642
+    second: kangroo_rig_0003:TwistBalancerChest_M
+  - first:
+      1: 100644
+    second: kangroo_rig_0003:TwistBalancerElbow_L
+  - first:
+      1: 100646
+    second: kangroo_rig_0003:TwistBalancerElbow_R
+  - first:
+      1: 100648
+    second: kangroo_rig_0003:TwistBalancerShoulder_L
+  - first:
+      1: 100650
+    second: kangroo_rig_0003:TwistBalancerShoulder_R
+  - first:
+      1: 100652
+    second: kangroo_rig_0003:TwisterElbow0_L
+  - first:
+      1: 100654
+    second: kangroo_rig_0003:TwisterElbow0_R
+  - first:
+      1: 100656
+    second: kangroo_rig_0003:TwisterElbow1_L
+  - first:
+      1: 100658
+    second: kangroo_rig_0003:TwisterElbow1_R
+  - first:
+      1: 100660
+    second: kangroo_rig_0003:TwisterElbow2_L
+  - first:
+      1: 100662
+    second: kangroo_rig_0003:TwisterElbow2_R
+  - first:
+      1: 100664
+    second: kangroo_rig_0003:TwisterShoulder0_L
+  - first:
+      1: 100666
+    second: kangroo_rig_0003:TwisterShoulder0_R
+  - first:
+      1: 100668
+    second: kangroo_rig_0003:TwisterShoulder1_L
+  - first:
+      1: 100670
+    second: kangroo_rig_0003:TwisterShoulder1_R
+  - first:
+      1: 100672
+    second: kangroo_rig_0003:TwisterShoulder2_L
+  - first:
+      1: 100674
+    second: kangroo_rig_0003:TwisterShoulder2_R
+  - first:
+      1: 100676
+    second: kangroo_rig_0003:TwistFollowChest_M
+  - first:
+      1: 100678
+    second: kangroo_rig_0003:TwistFollowElbow_L
+  - first:
+      1: 100680
+    second: kangroo_rig_0003:TwistFollowElbow_R
+  - first:
+      1: 100682
+    second: kangroo_rig_0003:TwistFollowOffsetChest_M
+  - first:
+      1: 100684
+    second: kangroo_rig_0003:TwistFollowOffsetElbow_L
+  - first:
+      1: 100686
+    second: kangroo_rig_0003:TwistFollowOffsetElbow_R
+  - first:
+      1: 100688
+    second: kangroo_rig_0003:TwistFollowOffsetShoulder_L
+  - first:
+      1: 100690
+    second: kangroo_rig_0003:TwistFollowOffsetShoulder_R
+  - first:
+      1: 100692
+    second: kangroo_rig_0003:TwistFollowParentChest_M
+  - first:
+      1: 100694
+    second: kangroo_rig_0003:TwistFollowParentElbow_L
+  - first:
+      1: 100696
+    second: kangroo_rig_0003:TwistFollowParentElbow_R
+  - first:
+      1: 100698
+    second: kangroo_rig_0003:TwistFollowParentOffsetChest_M
+  - first:
+      1: 100700
+    second: kangroo_rig_0003:TwistFollowParentOffsetElbow_L
+  - first:
+      1: 100702
+    second: kangroo_rig_0003:TwistFollowParentOffsetElbow_R
+  - first:
+      1: 100704
+    second: kangroo_rig_0003:TwistFollowParentOffsetShoulder_L
+  - first:
+      1: 100706
+    second: kangroo_rig_0003:TwistFollowParentOffsetShoulder_R
+  - first:
+      1: 100708
+    second: kangroo_rig_0003:TwistFollowParentShoulder_L
+  - first:
+      1: 100710
+    second: kangroo_rig_0003:TwistFollowParentShoulder_R
+  - first:
+      1: 100712
+    second: kangroo_rig_0003:TwistFollowShoulder_L
+  - first:
+      1: 100714
+    second: kangroo_rig_0003:TwistFollowShoulder_R
+  - first:
+      1: 100716
+    second: kangroo_rig_0003:TwistSystem
+  - first:
+      1: 100718
+    second: kangroo_rig_0003:UnTwistChest_M
+  - first:
+      1: 100720
+    second: kangroo_rig_0003:UnTwistElbow_L
+  - first:
+      1: 100722
+    second: kangroo_rig_0003:UnTwistElbow_R
+  - first:
+      1: 100724
+    second: kangroo_rig_0003:UnTwistEndChest_M
+  - first:
+      1: 100726
+    second: kangroo_rig_0003:UnTwistEndElbow_L
+  - first:
+      1: 100728
+    second: kangroo_rig_0003:UnTwistEndElbow_R
+  - first:
+      1: 100730
+    second: kangroo_rig_0003:UnTwistEndShoulder_L
+  - first:
+      1: 100732
+    second: kangroo_rig_0003:UnTwistEndShoulder_R
+  - first:
+      1: 100734
+    second: kangroo_rig_0003:UnTwistIKChest_M
+  - first:
+      1: 100736
+    second: kangroo_rig_0003:UnTwistIKElbow_L
+  - first:
+      1: 100738
+    second: kangroo_rig_0003:UnTwistIKElbow_R
+  - first:
+      1: 100740
+    second: kangroo_rig_0003:UnTwistIKShoulder_L
+  - first:
+      1: 100742
+    second: kangroo_rig_0003:UnTwistIKShoulder_R
+  - first:
+      1: 100744
+    second: kangroo_rig_0003:UnTwistShoulder_L
+  - first:
+      1: 100746
+    second: kangroo_rig_0003:UnTwistShoulder_R
+  - first:
+      1: 100748
+    second: kangroo_rig_0003:Wrist_L
+  - first:
+      1: 100750
+    second: kangroo_rig_0003:Wrist_R
+  - first:
+      1: 100752
+    second: null
+  - first:
+      4: 400000
+    second: camera1
+  - first:
+      4: 400002
+    second: group1
+  - first:
+      4: 400004
+    second: //RootNode
+  - first:
+      4: 400006
+    second: kangroo_rig_0003:AimEye
+  - first:
+      4: 400008
+    second: kangroo_rig_0003:AimFollowEye
+  - first:
+      4: 400010
+    second: kangroo_rig_0003:AimFollowOffEye
+  - first:
+      4: 400012
+    second: kangroo_rig_0003:AimFollowOnEye
+  - first:
+      4: 400014
+    second: kangroo_rig_0003:AimOffsetEye
+  - first:
+      4: 400016
+    second: kangroo_rig_0003:AimSystem
+  - first:
+      4: 400018
+    second: kangroo_rig_0003:AlignIKToAnkle_L
+  - first:
+      4: 400020
+    second: kangroo_rig_0003:AlignIKToAnkle_R
+  - first:
+      4: 400022
+    second: kangroo_rig_0003:AlignIKToWrist_L
+  - first:
+      4: 400024
+    second: kangroo_rig_0003:AlignIKToWrist_R
+  - first:
+      4: 400026
+    second: kangroo_rig_0003:Ankle_L
+  - first:
+      4: 400028
+    second: kangroo_rig_0003:Ankle_R
+  - first:
+      4: 400030
+    second: kangroo_rig_0003:BendSystem
+  - first:
+      4: 400032
+    second: kangroo_rig_0003:Chest_M
+  - first:
+      4: 400034
+    second: kangroo_rig_0003:ConstraintSystem
+  - first:
+      4: 400036
+    second: kangroo_rig_0003:DeformationSystem
+  - first:
+      4: 400038
+    second: kangroo_rig_0003:DrivingSystem
+  - first:
+      4: 400040
+    second: kangroo_rig_0003:DynamicSystem
+  - first:
+      4: 400042
+    second: kangroo_rig_0003:Elbow_L
+  - first:
+      4: 400044
+    second: kangroo_rig_0003:Elbow_R
+  - first:
+      4: 400046
+    second: kangroo_rig_0003:Eye_L
+  - first:
+      4: 400048
+    second: kangroo_rig_0003:Eye_R
+  - first:
+      4: 400050
+    second: kangroo_rig_0003:EyeEnd_L
+  - first:
+      4: 400052
+    second: kangroo_rig_0003:EyeEnd_R
+  - first:
+      4: 400054
+    second: kangroo_rig_0003:FitSkeleton
+  - first:
+      4: 400056
+    second: kangroo_rig_0003:FKAnkle_L
+  - first:
+      4: 400058
+    second: kangroo_rig_0003:FKAnkle_R
+  - first:
+      4: 400060
+    second: kangroo_rig_0003:FKElbow_L
+  - first:
+      4: 400062
+    second: kangroo_rig_0003:FKElbow_R
+  - first:
+      4: 400064
+    second: kangroo_rig_0003:FKExtraAnkle_L
+  - first:
+      4: 400066
+    second: kangroo_rig_0003:FKExtraAnkle_R
+  - first:
+      4: 400068
+    second: kangroo_rig_0003:FKExtraElbow_L
+  - first:
+      4: 400070
+    second: kangroo_rig_0003:FKExtraElbow_R
+  - first:
+      4: 400072
+    second: kangroo_rig_0003:FKExtraHip_L
+  - first:
+      4: 400074
+    second: kangroo_rig_0003:FKExtraHip_R
+  - first:
+      4: 400076
+    second: kangroo_rig_0003:FKExtraIndexFinger1_L
+  - first:
+      4: 400078
+    second: kangroo_rig_0003:FKExtraIndexFinger1_R
+  - first:
+      4: 400080
+    second: kangroo_rig_0003:FKExtraKnee_L
+  - first:
+      4: 400082
+    second: kangroo_rig_0003:FKExtraKnee_R
+  - first:
+      4: 400084
+    second: kangroo_rig_0003:FKExtraMiddleFinger1_L
+  - first:
+      4: 400086
+    second: kangroo_rig_0003:FKExtraMiddleFinger1_R
+  - first:
+      4: 400088
+    second: kangroo_rig_0003:FKExtraNeck_M
+  - first:
+      4: 400090
+    second: kangroo_rig_0003:FKExtraPinkyFinger1_L
+  - first:
+      4: 400092
+    second: kangroo_rig_0003:FKExtraPinkyFinger1_R
+  - first:
+      4: 400094
+    second: kangroo_rig_0003:FKExtraRingFinger1_L
+  - first:
+      4: 400096
+    second: kangroo_rig_0003:FKExtraRingFinger1_R
+  - first:
+      4: 400098
+    second: kangroo_rig_0003:FKExtraRoot_M
+  - first:
+      4: 400100
+    second: kangroo_rig_0003:FKExtraScapula_L
+  - first:
+      4: 400102
+    second: kangroo_rig_0003:FKExtraScapula_R
+  - first:
+      4: 400104
+    second: kangroo_rig_0003:FKExtraShoulder_L
+  - first:
+      4: 400106
+    second: kangroo_rig_0003:FKExtraShoulder_R
+  - first:
+      4: 400108
+    second: kangroo_rig_0003:FKExtraThumbFinger1_L
+  - first:
+      4: 400110
+    second: kangroo_rig_0003:FKExtraThumbFinger1_R
+  - first:
+      4: 400112
+    second: kangroo_rig_0003:FKExtraToes_L
+  - first:
+      4: 400114
+    second: kangroo_rig_0003:FKExtraToes_R
+  - first:
+      4: 400116
+    second: kangroo_rig_0003:FKExtraWrist_L
+  - first:
+      4: 400118
+    second: kangroo_rig_0003:FKExtraWrist_R
+  - first:
+      4: 400120
+    second: kangroo_rig_0003:FKHip_L
+  - first:
+      4: 400122
+    second: kangroo_rig_0003:FKHip_R
+  - first:
+      4: 400124
+    second: kangroo_rig_0003:FKIKMixElbow_L
+  - first:
+      4: 400126
+    second: kangroo_rig_0003:FKIKMixElbow_R
+  - first:
+      4: 400128
+    second: kangroo_rig_0003:FKIKParentConstraintArm_L
+  - first:
+      4: 400130
+    second: kangroo_rig_0003:FKIKParentConstraintArm_R
+  - first:
+      4: 400132
+    second: kangroo_rig_0003:FKIKParentConstraintLeg_L
+  - first:
+      4: 400134
+    second: kangroo_rig_0003:FKIKParentConstraintLeg_R
+  - first:
+      4: 400136
+    second: kangroo_rig_0003:FKIKParentConstraintSpine_M
+  - first:
+      4: 400138
+    second: kangroo_rig_0003:FKIKSystem
+  - first:
+      4: 400140
+    second: kangroo_rig_0003:FKKnee_L
+  - first:
+      4: 400142
+    second: kangroo_rig_0003:FKKnee_R
+  - first:
+      4: 400144
+    second: kangroo_rig_0003:FKOffsetAnkle_L
+  - first:
+      4: 400146
+    second: kangroo_rig_0003:FKOffsetAnkle_R
+  - first:
+      4: 400148
+    second: kangroo_rig_0003:FKOffsetElbow_L
+  - first:
+      4: 400150
+    second: kangroo_rig_0003:FKOffsetElbow_R
+  - first:
+      4: 400152
+    second: kangroo_rig_0003:FKOffsetHip_L
+  - first:
+      4: 400154
+    second: kangroo_rig_0003:FKOffsetHip_R
+  - first:
+      4: 400156
+    second: kangroo_rig_0003:FKOffsetIndexFinger1_L
+  - first:
+      4: 400158
+    second: kangroo_rig_0003:FKOffsetIndexFinger1_R
+  - first:
+      4: 400160
+    second: kangroo_rig_0003:FKOffsetKnee_L
+  - first:
+      4: 400162
+    second: kangroo_rig_0003:FKOffsetKnee_R
+  - first:
+      4: 400164
+    second: kangroo_rig_0003:FKOffsetMiddleFinger1_L
+  - first:
+      4: 400166
+    second: kangroo_rig_0003:FKOffsetMiddleFinger1_R
+  - first:
+      4: 400168
+    second: kangroo_rig_0003:FKOffsetNeck_M
+  - first:
+      4: 400170
+    second: kangroo_rig_0003:FKOffsetPinkyFinger1_L
+  - first:
+      4: 400172
+    second: kangroo_rig_0003:FKOffsetPinkyFinger1_R
+  - first:
+      4: 400174
+    second: kangroo_rig_0003:FKOffsetRingFinger1_L
+  - first:
+      4: 400176
+    second: kangroo_rig_0003:FKOffsetRingFinger1_R
+  - first:
+      4: 400178
+    second: kangroo_rig_0003:FKOffsetRoot_M
+  - first:
+      4: 400180
+    second: kangroo_rig_0003:FKOffsetScapula_L
+  - first:
+      4: 400182
+    second: kangroo_rig_0003:FKOffsetScapula_R
+  - first:
+      4: 400184
+    second: kangroo_rig_0003:FKOffsetShoulder_L
+  - first:
+      4: 400186
+    second: kangroo_rig_0003:FKOffsetShoulder_R
+  - first:
+      4: 400188
+    second: kangroo_rig_0003:FKOffsetThumbFinger1_L
+  - first:
+      4: 400190
+    second: kangroo_rig_0003:FKOffsetThumbFinger1_R
+  - first:
+      4: 400192
+    second: kangroo_rig_0003:FKOffsetToes_L
+  - first:
+      4: 400194
+    second: kangroo_rig_0003:FKOffsetToes_R
+  - first:
+      4: 400196
+    second: kangroo_rig_0003:FKOffsetWrist_L
+  - first:
+      4: 400198
+    second: kangroo_rig_0003:FKOffsetWrist_R
+  - first:
+      4: 400200
+    second: kangroo_rig_0003:FKParentConstraintToChest_M
+  - first:
+      4: 400202
+    second: kangroo_rig_0003:FKParentConstraintToRoot_M
+  - first:
+      4: 400204
+    second: kangroo_rig_0003:FKParentConstraintToScapula_L
+  - first:
+      4: 400206
+    second: kangroo_rig_0003:FKParentConstraintToScapula_R
+  - first:
+      4: 400208
+    second: kangroo_rig_0003:FKParentConstraintToWrist_L
+  - first:
+      4: 400210
+    second: kangroo_rig_0003:FKParentConstraintToWrist_R
+  - first:
+      4: 400212
+    second: kangroo_rig_0003:FKShoulder_L
+  - first:
+      4: 400214
+    second: kangroo_rig_0003:FKShoulder_R
+  - first:
+      4: 400216
+    second: kangroo_rig_0003:FKSystem
+  - first:
+      4: 400218
+    second: kangroo_rig_0003:FKToes_L
+  - first:
+      4: 400220
+    second: kangroo_rig_0003:FKToes_R
+  - first:
+      4: 400222
+    second: kangroo_rig_0003:FKWrist_L
+  - first:
+      4: 400224
+    second: kangroo_rig_0003:FKWrist_R
+  - first:
+      4: 400226
+    second: kangroo_rig_0003:FKXAnkle_L
+  - first:
+      4: 400228
+    second: kangroo_rig_0003:FKXAnkle_R
+  - first:
+      4: 400230
+    second: kangroo_rig_0003:FKXElbow_L
+  - first:
+      4: 400232
+    second: kangroo_rig_0003:FKXElbow_R
+  - first:
+      4: 400234
+    second: kangroo_rig_0003:FKXHip_L
+  - first:
+      4: 400236
+    second: kangroo_rig_0003:FKXHip_R
+  - first:
+      4: 400238
+    second: kangroo_rig_0003:FKXKnee_L
+  - first:
+      4: 400240
+    second: kangroo_rig_0003:FKXKnee_R
+  - first:
+      4: 400242
+    second: kangroo_rig_0003:FKXShoulder_L
+  - first:
+      4: 400244
+    second: kangroo_rig_0003:FKXShoulder_R
+  - first:
+      4: 400246
+    second: kangroo_rig_0003:FKXToes_L
+  - first:
+      4: 400248
+    second: kangroo_rig_0003:FKXToes_R
+  - first:
+      4: 400250
+    second: kangroo_rig_0003:FKXWrist_L
+  - first:
+      4: 400252
+    second: kangroo_rig_0003:FKXWrist_R
+  - first:
+      4: 400254
+    second: kangroo_rig_0003:front1
+  - first:
+      4: 400256
+    second: kangroo_rig_0003:Geometry
+  - first:
+      4: 400258
+    second: kangroo_rig_0003:GlobalHead_M
+  - first:
+      4: 400260
+    second: kangroo_rig_0003:GlobalOffsetHead_M
+  - first:
+      4: 400262
+    second: kangroo_rig_0003:GlobalSystem
+  - first:
+      4: 400264
+    second: kangroo_rig_0003:Group
+  - first:
+      4: 400266
+    second: kangroo_rig_0003:Head_M
+  - first:
+      4: 400268
+    second: kangroo_rig_0003:HeadEnd_M
+  - first:
+      4: 400270
+    second: kangroo_rig_0003:Hip_L
+  - first:
+      4: 400272
+    second: kangroo_rig_0003:Hip_R
+  - first:
+      4: 400274
+    second: kangroo_rig_0003:IKCurve
+  - first:
+      4: 400276
+    second: kangroo_rig_0003:IKdistanceArm_L
+  - first:
+      4: 400278
+    second: kangroo_rig_0003:IKdistanceArm_R
+  - first:
+      4: 400280
+    second: kangroo_rig_0003:IKdistanceLeg_L
+  - first:
+      4: 400282
+    second: kangroo_rig_0003:IKdistanceLeg_R
+  - first:
+      4: 400284
+    second: kangroo_rig_0003:IKExtraArm_L
+  - first:
+      4: 400286
+    second: kangroo_rig_0003:IKExtraArm_R
+  - first:
+      4: 400288
+    second: kangroo_rig_0003:IKExtraLeg_L
+  - first:
+      4: 400290
+    second: kangroo_rig_0003:IKExtraLeg_R
+  - first:
+      4: 400292
+    second: kangroo_rig_0003:IKExtraSpine1_M
+  - first:
+      4: 400294
+    second: kangroo_rig_0003:IKExtraSpine2_M
+  - first:
+      4: 400296
+    second: kangroo_rig_0003:IKfake0Spine_M
+  - first:
+      4: 400298
+    second: kangroo_rig_0003:IKfake1Spine_M
+  - first:
+      4: 400300
+    second: kangroo_rig_0003:IKFake1UpLocSpine_M
+  - first:
+      4: 400302
+    second: kangroo_rig_0003:IKfake2Spine_M
+  - first:
+      4: 400304
+    second: kangroo_rig_0003:IKfake3Spine_M
+  - first:
+      4: 400306
+    second: kangroo_rig_0003:IKFollow
+  - first:
+      4: 400308
+    second: kangroo_rig_0003:IKHandle
+  - first:
+      4: 400310
+    second: kangroo_rig_0003:IKJoints
+  - first:
+      4: 400312
+    second: kangroo_rig_0003:IKMessure
+  - first:
+      4: 400314
+    second: kangroo_rig_0003:IKMessureFromHip_L
+  - first:
+      4: 400316
+    second: kangroo_rig_0003:IKMessureFromHip_R
+  - first:
+      4: 400318
+    second: kangroo_rig_0003:IKMessureFromShoulder_L
+  - first:
+      4: 400320
+    second: kangroo_rig_0003:IKMessureFromShoulder_R
+  - first:
+      4: 400322
+    second: kangroo_rig_0003:IKmessureLoc1Arm_L
+  - first:
+      4: 400324
+    second: kangroo_rig_0003:IKmessureLoc1Arm_R
+  - first:
+      4: 400326
+    second: kangroo_rig_0003:IKmessureLoc1Leg_L
+  - first:
+      4: 400328
+    second: kangroo_rig_0003:IKmessureLoc1Leg_R
+  - first:
+      4: 400330
+    second: kangroo_rig_0003:IKmessureLoc2Arm_L
+  - first:
+      4: 400332
+    second: kangroo_rig_0003:IKmessureLoc2Arm_R
+  - first:
+      4: 400334
+    second: kangroo_rig_0003:IKmessureLoc2Leg_L
+  - first:
+      4: 400336
+    second: kangroo_rig_0003:IKmessureLoc2Leg_R
+  - first:
+      4: 400338
+    second: kangroo_rig_0003:IKOffsetArm_L
+  - first:
+      4: 400340
+    second: kangroo_rig_0003:IKOffsetArm_LFollow
+  - first:
+      4: 400342
+    second: kangroo_rig_0003:IKOffsetArm_LFollowNoScale
+  - first:
+      4: 400344
+    second: kangroo_rig_0003:IKOffsetArm_LStatic
+  - first:
+      4: 400346
+    second: kangroo_rig_0003:IKOffsetArm_R
+  - first:
+      4: 400348
+    second: kangroo_rig_0003:IKOffsetArm_RFollow
+  - first:
+      4: 400350
+    second: kangroo_rig_0003:IKOffsetArm_RFollowNoScale
+  - first:
+      4: 400352
+    second: kangroo_rig_0003:IKOffsetArm_RStatic
+  - first:
+      4: 400354
+    second: kangroo_rig_0003:IKOffsetLeg_L
+  - first:
+      4: 400356
+    second: kangroo_rig_0003:IKOffsetLeg_R
+  - first:
+      4: 400358
+    second: kangroo_rig_0003:IKOffsetSpine1_M
+  - first:
+      4: 400360
+    second: kangroo_rig_0003:IKOffsetSpine2_M
+  - first:
+      4: 400362
+    second: kangroo_rig_0003:IKParentConstraintHip_L
+  - first:
+      4: 400364
+    second: kangroo_rig_0003:IKParentConstraintHip_R
+  - first:
+      4: 400366
+    second: kangroo_rig_0003:IKParentConstraintRoot_M
+  - first:
+      4: 400368
+    second: kangroo_rig_0003:IKParentConstraintShoulder_L
+  - first:
+      4: 400370
+    second: kangroo_rig_0003:IKParentConstraintShoulder_R
+  - first:
+      4: 400372
+    second: kangroo_rig_0003:IKScalerChest_M
+  - first:
+      4: 400374
+    second: kangroo_rig_0003:IKScalerRoot_M
+  - first:
+      4: 400376
+    second: kangroo_rig_0003:IKScalerSpine1_M
+  - first:
+      4: 400378
+    second: kangroo_rig_0003:IKSpChest_M
+  - first:
+      4: 400380
+    second: kangroo_rig_0003:IKSpChestFollowOffset_M
+  - first:
+      4: 400382
+    second: kangroo_rig_0003:IKSpine0AlignTo_M
+  - first:
+      4: 400384
+    second: kangroo_rig_0003:IKSpine1_M
+  - first:
+      4: 400386
+    second: kangroo_rig_0003:IKSpine2_M
+  - first:
+      4: 400388
+    second: kangroo_rig_0003:IKSpine2AlignTo_M
+  - first:
+      4: 400390
+    second: kangroo_rig_0003:IKSpine2AlignUnIKTwistTo_M
+  - first:
+      4: 400392
+    second: kangroo_rig_0003:IKSpine2AlignUnIKTwistToOffset_M
+  - first:
+      4: 400394
+    second: kangroo_rig_0003:IKSpineCurve_M
+  - first:
+      4: 400396
+    second: kangroo_rig_0003:IKSpineHandle_M
+  - first:
+      4: 400398
+    second: kangroo_rig_0003:IKSpineLocator0_M
+  - first:
+      4: 400400
+    second: kangroo_rig_0003:IKSpineLocator1_M
+  - first:
+      4: 400402
+    second: kangroo_rig_0003:IKSpineLocator2_M
+  - first:
+      4: 400404
+    second: kangroo_rig_0003:IKSpineLocator3_M
+  - first:
+      4: 400406
+    second: kangroo_rig_0003:IKSpRoot_M
+  - first:
+      4: 400408
+    second: kangroo_rig_0003:IKSpRootFollowOffset_M
+  - first:
+      4: 400410
+    second: kangroo_rig_0003:IKSpSpine1_M
+  - first:
+      4: 400412
+    second: kangroo_rig_0003:IKSpSpine1FollowOffset_M
+  - first:
+      4: 400414
+    second: kangroo_rig_0003:IKSpSpineOffset_M
+  - first:
+      4: 400416
+    second: kangroo_rig_0003:IKStatic
+  - first:
+      4: 400418
+    second: kangroo_rig_0003:IKStiffOrientSpine1_M
+  - first:
+      4: 400420
+    second: kangroo_rig_0003:IKStiffOrientSpine2_M
+  - first:
+      4: 400422
+    second: kangroo_rig_0003:IKSystem
+  - first:
+      4: 400424
+    second: kangroo_rig_0003:IKX2Chest_M
+  - first:
+      4: 400426
+    second: kangroo_rig_0003:IKX2Elbow_L
+  - first:
+      4: 400428
+    second: kangroo_rig_0003:IKX2Root_M
+  - first:
+      4: 400430
+    second: kangroo_rig_0003:IKX2Shoulder_L
+  - first:
+      4: 400432
+    second: kangroo_rig_0003:IKX2Spine1_M
+  - first:
+      4: 400434
+    second: kangroo_rig_0003:IKX2Wrist_L
+  - first:
+      4: 400436
+    second: kangroo_rig_0003:IKXChest_M
+  - first:
+      4: 400438
+    second: kangroo_rig_0003:IKXElbow_L
+  - first:
+      4: 400440
+    second: kangroo_rig_0003:IKXOffsetHip_L
+  - first:
+      4: 400442
+    second: kangroo_rig_0003:IKXOffsetHip_R
+  - first:
+      4: 400444
+    second: kangroo_rig_0003:IKXOffsetRoot_M
+  - first:
+      4: 400446
+    second: kangroo_rig_0003:IKXOffsetShoulder_L
+  - first:
+      4: 400448
+    second: kangroo_rig_0003:IKXOffsetShoulder_R
+  - first:
+      4: 400450
+    second: kangroo_rig_0003:IKXRoot_M
+  - first:
+      4: 400452
+    second: kangroo_rig_0003:IKXShoulder_L
+  - first:
+      4: 400454
+    second: kangroo_rig_0003:IKXSpine1_M
+  - first:
+      4: 400456
+    second: kangroo_rig_0003:IKXWrist_L
+  - first:
+      4: 400458
+    second: kangroo_rig_0003:Jaw_M
+  - first:
+      4: 400460
+    second: kangroo_rig_0003:JawEnd_M
+  - first:
+      4: 400462
+    second: kangroo_rig_0003:kangaroo_body:final:pSphere3
+  - first:
+      4: 400464
+    second: kangroo_rig_0003:kangaroo_body:polySurface1
+  - first:
+      4: 400466
+    second: kangroo_rig_0003:kangaroo_body:polySurface2
+  - first:
+      4: 400468
+    second: kangroo_rig_0003:kangaroo_body:polySurface3
+  - first:
+      4: 400470
+    second: kangroo_rig_0003:kangaroo_body:polySurface4
+  - first:
+      4: 400472
+    second: kangroo_rig_0003:kangaroo_body:polySurface5
+  - first:
+      4: 400474
+    second: kangroo_rig_0003:kangaroo_body:transform1
+  - first:
+      4: 400476
+    second: kangroo_rig_0003:Knee_L
+  - first:
+      4: 400478
+    second: kangroo_rig_0003:Knee_R
+  - first:
+      4: 400480
+    second: kangroo_rig_0003:L_jnt_ear
+  - first:
+      4: 400482
+    second: kangroo_rig_0003:L_jnt_ear1
+  - first:
+      4: 400484
+    second: kangroo_rig_0003:left
+  - first:
+      4: 400486
+    second: kangroo_rig_0003:LegLockConstrained
+  - first:
+      4: 400488
+    second: kangroo_rig_0003:Main
+  - first:
+      4: 400490
+    second: kangroo_rig_0003:MiddleFinger1_L
+  - first:
+      4: 400492
+    second: kangroo_rig_0003:MiddleFinger1_R
+  - first:
+      4: 400494
+    second: kangroo_rig_0003:MiddleFinger2_L
+  - first:
+      4: 400496
+    second: kangroo_rig_0003:MiddleFinger2_R
+  - first:
+      4: 400498
+    second: kangroo_rig_0003:MiddleFinger3_L
+  - first:
+      4: 400500
+    second: kangroo_rig_0003:MiddleFinger3_R
+  - first:
+      4: 400502
+    second: kangroo_rig_0003:MiddleFinger4_L
+  - first:
+      4: 400504
+    second: kangroo_rig_0003:MiddleFinger4_R
+  - first:
+      4: 400506
+    second: kangroo_rig_0003:MotionSystem
+  - first:
+      4: 400508
+    second: kangroo_rig_0003:Neck_M
+  - first:
+      4: 400510
+    second: kangroo_rig_0003:PoleAimLeg_L
+  - first:
+      4: 400512
+    second: kangroo_rig_0003:PoleAimLeg_R
+  - first:
+      4: 400514
+    second: kangroo_rig_0003:PoleAnnotationArm_L
+  - first:
+      4: 400516
+    second: kangroo_rig_0003:PoleArm_L
+  - first:
+      4: 400518
+    second: kangroo_rig_0003:PoleExtraArm_L
+  - first:
+      4: 400520
+    second: kangroo_rig_0003:PoleExtraArm_R
+  - first:
+      4: 400522
+    second: kangroo_rig_0003:PoleExtraLeg_L
+  - first:
+      4: 400524
+    second: kangroo_rig_0003:PoleExtraLeg_R
+  - first:
+      4: 400526
+    second: kangroo_rig_0003:PoleOffsetArm_L
+  - first:
+      4: 400528
+    second: kangroo_rig_0003:PoleOffsetArm_LStatic
+  - first:
+      4: 400530
+    second: kangroo_rig_0003:PoleOffsetArm_R
+  - first:
+      4: 400532
+    second: kangroo_rig_0003:PoleOffsetArm_RStatic
+  - first:
+      4: 400534
+    second: kangroo_rig_0003:PoleOffsetLeg_L
+  - first:
+      4: 400536
+    second: kangroo_rig_0003:PoleOffsetLeg_LFollow
+  - first:
+      4: 400538
+    second: kangroo_rig_0003:PoleOffsetLeg_LFollowNoScale
+  - first:
+      4: 400540
+    second: kangroo_rig_0003:PoleOffsetLeg_LStatic
+  - first:
+      4: 400542
+    second: kangroo_rig_0003:PoleOffsetLeg_R
+  - first:
+      4: 400544
+    second: kangroo_rig_0003:PoleOffsetLeg_RFollow
+  - first:
+      4: 400546
+    second: kangroo_rig_0003:PoleOffsetLeg_RFollowNoScale
+  - first:
+      4: 400548
+    second: kangroo_rig_0003:PoleOffsetLeg_RStatic
+  - first:
+      4: 400550
+    second: kangroo_rig_0003:R_jnt_ear
+  - first:
+      4: 400552
+    second: kangroo_rig_0003:R_jnt_ear1
+  - first:
+      4: 400554
+    second: kangroo_rig_0003:Root_M
+  - first:
+      4: 400556
+    second: kangroo_rig_0003:RootExtraX_M
+  - first:
+      4: 400558
+    second: kangroo_rig_0003:RootOffsetX_M
+  - first:
+      4: 400560
+    second: kangroo_rig_0003:RootSystem
+  - first:
+      4: 400562
+    second: kangroo_rig_0003:Scapula_L
+  - first:
+      4: 400564
+    second: kangroo_rig_0003:Scapula_R
+  - first:
+      4: 400566
+    second: kangroo_rig_0003:SDK1FKIndexFinger1_L
+  - first:
+      4: 400568
+    second: kangroo_rig_0003:SDK1FKIndexFinger1_R
+  - first:
+      4: 400570
+    second: kangroo_rig_0003:SDK1FKMiddleFinger1_L
+  - first:
+      4: 400572
+    second: kangroo_rig_0003:SDK1FKMiddleFinger1_R
+  - first:
+      4: 400574
+    second: kangroo_rig_0003:SDK1FKPinkyFinger1_L
+  - first:
+      4: 400576
+    second: kangroo_rig_0003:SDK1FKPinkyFinger1_R
+  - first:
+      4: 400578
+    second: kangroo_rig_0003:SDK1FKRingFinger1_L
+  - first:
+      4: 400580
+    second: kangroo_rig_0003:SDK1FKRingFinger1_R
+  - first:
+      4: 400582
+    second: kangroo_rig_0003:SDK2FKIndexFinger1_L
+  - first:
+      4: 400584
+    second: kangroo_rig_0003:SDK2FKIndexFinger1_R
+  - first:
+      4: 400586
+    second: kangroo_rig_0003:SDK2FKPinkyFinger1_L
+  - first:
+      4: 400588
+    second: kangroo_rig_0003:SDK2FKPinkyFinger1_R
+  - first:
+      4: 400590
+    second: kangroo_rig_0003:SDK2FKRingFinger1_L
+  - first:
+      4: 400592
+    second: kangroo_rig_0003:SDK2FKRingFinger1_R
+  - first:
+      4: 400594
+    second: kangroo_rig_0003:Shoulder_L
+  - first:
+      4: 400596
+    second: kangroo_rig_0003:Shoulder_R
+  - first:
+      4: 400598
+    second: kangroo_rig_0003:ShoulderPart1_L
+  - first:
+      4: 400600
+    second: kangroo_rig_0003:ShoulderPart1_R
+  - first:
+      4: 400602
+    second: kangroo_rig_0003:ShoulderPart2_L
+  - first:
+      4: 400604
+    second: kangroo_rig_0003:ShoulderPart2_R
+  - first:
+      4: 400606
+    second: kangroo_rig_0003:Spine1_M
+  - first:
+      4: 400608
+    second: kangroo_rig_0003:tail
+  - first:
+      4: 400610
+    second: kangroo_rig_0003:tail1
+  - first:
+      4: 400612
+    second: kangroo_rig_0003:tail2
+  - first:
+      4: 400614
+    second: kangroo_rig_0003:tail3
+  - first:
+      4: 400616
+    second: kangroo_rig_0003:tail4
+  - first:
+      4: 400618
+    second: kangroo_rig_0003:ThumbFinger1_L
+  - first:
+      4: 400620
+    second: kangroo_rig_0003:ThumbFinger1_R
+  - first:
+      4: 400622
+    second: kangroo_rig_0003:ThumbFinger2_L
+  - first:
+      4: 400624
+    second: kangroo_rig_0003:ThumbFinger2_R
+  - first:
+      4: 400626
+    second: kangroo_rig_0003:ThumbFinger3_L
+  - first:
+      4: 400628
+    second: kangroo_rig_0003:ThumbFinger3_R
+  - first:
+      4: 400630
+    second: kangroo_rig_0003:ThumbFinger4_L
+  - first:
+      4: 400632
+    second: kangroo_rig_0003:ThumbFinger4_R
+  - first:
+      4: 400634
+    second: kangroo_rig_0003:Toes_L
+  - first:
+      4: 400636
+    second: kangroo_rig_0003:Toes_R
+  - first:
+      4: 400638
+    second: kangroo_rig_0003:ToesEnd_L
+  - first:
+      4: 400640
+    second: kangroo_rig_0003:ToesEnd_R
+  - first:
+      4: 400642
+    second: kangroo_rig_0003:TwistBalancerChest_M
+  - first:
+      4: 400644
+    second: kangroo_rig_0003:TwistBalancerElbow_L
+  - first:
+      4: 400646
+    second: kangroo_rig_0003:TwistBalancerElbow_R
+  - first:
+      4: 400648
+    second: kangroo_rig_0003:TwistBalancerShoulder_L
+  - first:
+      4: 400650
+    second: kangroo_rig_0003:TwistBalancerShoulder_R
+  - first:
+      4: 400652
+    second: kangroo_rig_0003:TwisterElbow0_L
+  - first:
+      4: 400654
+    second: kangroo_rig_0003:TwisterElbow0_R
+  - first:
+      4: 400656
+    second: kangroo_rig_0003:TwisterElbow1_L
+  - first:
+      4: 400658
+    second: kangroo_rig_0003:TwisterElbow1_R
+  - first:
+      4: 400660
+    second: kangroo_rig_0003:TwisterElbow2_L
+  - first:
+      4: 400662
+    second: kangroo_rig_0003:TwisterElbow2_R
+  - first:
+      4: 400664
+    second: kangroo_rig_0003:TwisterShoulder0_L
+  - first:
+      4: 400666
+    second: kangroo_rig_0003:TwisterShoulder0_R
+  - first:
+      4: 400668
+    second: kangroo_rig_0003:TwisterShoulder1_L
+  - first:
+      4: 400670
+    second: kangroo_rig_0003:TwisterShoulder1_R
+  - first:
+      4: 400672
+    second: kangroo_rig_0003:TwisterShoulder2_L
+  - first:
+      4: 400674
+    second: kangroo_rig_0003:TwisterShoulder2_R
+  - first:
+      4: 400676
+    second: kangroo_rig_0003:TwistFollowChest_M
+  - first:
+      4: 400678
+    second: kangroo_rig_0003:TwistFollowElbow_L
+  - first:
+      4: 400680
+    second: kangroo_rig_0003:TwistFollowElbow_R
+  - first:
+      4: 400682
+    second: kangroo_rig_0003:TwistFollowOffsetChest_M
+  - first:
+      4: 400684
+    second: kangroo_rig_0003:TwistFollowOffsetElbow_L
+  - first:
+      4: 400686
+    second: kangroo_rig_0003:TwistFollowOffsetElbow_R
+  - first:
+      4: 400688
+    second: kangroo_rig_0003:TwistFollowOffsetShoulder_L
+  - first:
+      4: 400690
+    second: kangroo_rig_0003:TwistFollowOffsetShoulder_R
+  - first:
+      4: 400692
+    second: kangroo_rig_0003:TwistFollowParentChest_M
+  - first:
+      4: 400694
+    second: kangroo_rig_0003:TwistFollowParentElbow_L
+  - first:
+      4: 400696
+    second: kangroo_rig_0003:TwistFollowParentElbow_R
+  - first:
+      4: 400698
+    second: kangroo_rig_0003:TwistFollowParentOffsetChest_M
+  - first:
+      4: 400700
+    second: kangroo_rig_0003:TwistFollowParentOffsetElbow_L
+  - first:
+      4: 400702
+    second: kangroo_rig_0003:TwistFollowParentOffsetElbow_R
+  - first:
+      4: 400704
+    second: kangroo_rig_0003:TwistFollowParentOffsetShoulder_L
+  - first:
+      4: 400706
+    second: kangroo_rig_0003:TwistFollowParentOffsetShoulder_R
+  - first:
+      4: 400708
+    second: kangroo_rig_0003:TwistFollowParentShoulder_L
+  - first:
+      4: 400710
+    second: kangroo_rig_0003:TwistFollowParentShoulder_R
+  - first:
+      4: 400712
+    second: kangroo_rig_0003:TwistFollowShoulder_L
+  - first:
+      4: 400714
+    second: kangroo_rig_0003:TwistFollowShoulder_R
+  - first:
+      4: 400716
+    second: kangroo_rig_0003:TwistSystem
+  - first:
+      4: 400718
+    second: kangroo_rig_0003:UnTwistChest_M
+  - first:
+      4: 400720
+    second: kangroo_rig_0003:UnTwistElbow_L
+  - first:
+      4: 400722
+    second: kangroo_rig_0003:UnTwistElbow_R
+  - first:
+      4: 400724
+    second: kangroo_rig_0003:UnTwistEndChest_M
+  - first:
+      4: 400726
+    second: kangroo_rig_0003:UnTwistEndElbow_L
+  - first:
+      4: 400728
+    second: kangroo_rig_0003:UnTwistEndElbow_R
+  - first:
+      4: 400730
+    second: kangroo_rig_0003:UnTwistEndShoulder_L
+  - first:
+      4: 400732
+    second: kangroo_rig_0003:UnTwistEndShoulder_R
+  - first:
+      4: 400734
+    second: kangroo_rig_0003:UnTwistIKChest_M
+  - first:
+      4: 400736
+    second: kangroo_rig_0003:UnTwistIKElbow_L
+  - first:
+      4: 400738
+    second: kangroo_rig_0003:UnTwistIKElbow_R
+  - first:
+      4: 400740
+    second: kangroo_rig_0003:UnTwistIKShoulder_L
+  - first:
+      4: 400742
+    second: kangroo_rig_0003:UnTwistIKShoulder_R
+  - first:
+      4: 400744
+    second: kangroo_rig_0003:UnTwistShoulder_L
+  - first:
+      4: 400746
+    second: kangroo_rig_0003:UnTwistShoulder_R
+  - first:
+      4: 400748
+    second: kangroo_rig_0003:Wrist_L
+  - first:
+      4: 400750
+    second: kangroo_rig_0003:Wrist_R
+  - first:
+      4: 400752
+    second: null
+  - first:
+      43: 4300000
+    second: kangroo_rig_0003:kangaroo_body:polySurface1
+  - first:
+      43: 4300002
+    second: kangroo_rig_0003:kangaroo_body:polySurface2
+  - first:
+      43: 4300004
+    second: kangroo_rig_0003:kangaroo_body:polySurface3
+  - first:
+      43: 4300006
+    second: kangroo_rig_0003:kangaroo_body:polySurface4
+  - first:
+      43: 4300008
+    second: kangroo_rig_0003:kangaroo_body:polySurface5
+  - first:
+      74: 7400000
+    second: Boxing
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: kangroo_rig_0003:kangaroo_body:polySurface1
+  - first:
+      137: 13700002
+    second: kangroo_rig_0003:kangaroo_body:polySurface2
+  - first:
+      137: 13700004
+    second: kangroo_rig_0003:kangaroo_body:polySurface3
+  - first:
+      137: 13700006
+    second: kangroo_rig_0003:kangaroo_body:polySurface4
+  - first:
+      137: 13700008
+    second: kangroo_rig_0003:kangaroo_body:polySurface5
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kangroo_rig_0003_kangaroo_body_lambert2
+    second: {fileID: 2100000, guid: 79e2bcf6635fc4b37983eb45a433d1ee, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Boxing
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: playSound
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: camera1
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: kangroo_rig_0003:front1
+        weight: 1
+      - path: kangroo_rig_0003:Group
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Geometry
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Hip_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Hip_L/kangroo_rig_0003:Knee_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Hip_L/kangroo_rig_0003:Knee_L/kangroo_rig_0003:Ankle_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Hip_L/kangroo_rig_0003:Knee_L/kangroo_rig_0003:Ankle_L/kangroo_rig_0003:Toes_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Hip_L/kangroo_rig_0003:Knee_L/kangroo_rig_0003:Ankle_L/kangroo_rig_0003:Toes_L/kangroo_rig_0003:ToesEnd_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Hip_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Hip_R/kangroo_rig_0003:Knee_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Hip_R/kangroo_rig_0003:Knee_R/kangroo_rig_0003:Ankle_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Hip_R/kangroo_rig_0003:Knee_R/kangroo_rig_0003:Ankle_R/kangroo_rig_0003:Toes_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Hip_R/kangroo_rig_0003:Knee_R/kangroo_rig_0003:Ankle_R/kangroo_rig_0003:Toes_R/kangroo_rig_0003:ToesEnd_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Neck_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Neck_M/kangroo_rig_0003:Head_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Neck_M/kangroo_rig_0003:Head_M/kangroo_rig_0003:Eye_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Neck_M/kangroo_rig_0003:Head_M/kangroo_rig_0003:Eye_L/kangroo_rig_0003:EyeEnd_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Neck_M/kangroo_rig_0003:Head_M/kangroo_rig_0003:Eye_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Neck_M/kangroo_rig_0003:Head_M/kangroo_rig_0003:Eye_R/kangroo_rig_0003:EyeEnd_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Neck_M/kangroo_rig_0003:Head_M/kangroo_rig_0003:HeadEnd_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Neck_M/kangroo_rig_0003:Head_M/kangroo_rig_0003:Jaw_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Neck_M/kangroo_rig_0003:Head_M/kangroo_rig_0003:Jaw_M/kangroo_rig_0003:JawEnd_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_L/kangroo_rig_0003:Shoulder_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_L/kangroo_rig_0003:Shoulder_L/kangroo_rig_0003:ShoulderPart1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_L/kangroo_rig_0003:Shoulder_L/kangroo_rig_0003:ShoulderPart1_L/kangroo_rig_0003:ShoulderPart2_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_L/kangroo_rig_0003:Shoulder_L/kangroo_rig_0003:ShoulderPart1_L/kangroo_rig_0003:ShoulderPart2_L/kangroo_rig_0003:Elbow_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_L/kangroo_rig_0003:Shoulder_L/kangroo_rig_0003:ShoulderPart1_L/kangroo_rig_0003:ShoulderPart2_L/kangroo_rig_0003:Elbow_L/kangroo_rig_0003:Wrist_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_L/kangroo_rig_0003:Shoulder_L/kangroo_rig_0003:ShoulderPart1_L/kangroo_rig_0003:ShoulderPart2_L/kangroo_rig_0003:Elbow_L/kangroo_rig_0003:Wrist_L/kangroo_rig_0003:MiddleFinger1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_L/kangroo_rig_0003:Shoulder_L/kangroo_rig_0003:ShoulderPart1_L/kangroo_rig_0003:ShoulderPart2_L/kangroo_rig_0003:Elbow_L/kangroo_rig_0003:Wrist_L/kangroo_rig_0003:MiddleFinger1_L/kangroo_rig_0003:MiddleFinger2_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_L/kangroo_rig_0003:Shoulder_L/kangroo_rig_0003:ShoulderPart1_L/kangroo_rig_0003:ShoulderPart2_L/kangroo_rig_0003:Elbow_L/kangroo_rig_0003:Wrist_L/kangroo_rig_0003:MiddleFinger1_L/kangroo_rig_0003:MiddleFinger2_L/kangroo_rig_0003:MiddleFinger3_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_L/kangroo_rig_0003:Shoulder_L/kangroo_rig_0003:ShoulderPart1_L/kangroo_rig_0003:ShoulderPart2_L/kangroo_rig_0003:Elbow_L/kangroo_rig_0003:Wrist_L/kangroo_rig_0003:MiddleFinger1_L/kangroo_rig_0003:MiddleFinger2_L/kangroo_rig_0003:MiddleFinger3_L/kangroo_rig_0003:MiddleFinger4_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_L/kangroo_rig_0003:Shoulder_L/kangroo_rig_0003:ShoulderPart1_L/kangroo_rig_0003:ShoulderPart2_L/kangroo_rig_0003:Elbow_L/kangroo_rig_0003:Wrist_L/kangroo_rig_0003:ThumbFinger1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_L/kangroo_rig_0003:Shoulder_L/kangroo_rig_0003:ShoulderPart1_L/kangroo_rig_0003:ShoulderPart2_L/kangroo_rig_0003:Elbow_L/kangroo_rig_0003:Wrist_L/kangroo_rig_0003:ThumbFinger1_L/kangroo_rig_0003:ThumbFinger2_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_L/kangroo_rig_0003:Shoulder_L/kangroo_rig_0003:ShoulderPart1_L/kangroo_rig_0003:ShoulderPart2_L/kangroo_rig_0003:Elbow_L/kangroo_rig_0003:Wrist_L/kangroo_rig_0003:ThumbFinger1_L/kangroo_rig_0003:ThumbFinger2_L/kangroo_rig_0003:ThumbFinger3_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_L/kangroo_rig_0003:Shoulder_L/kangroo_rig_0003:ShoulderPart1_L/kangroo_rig_0003:ShoulderPart2_L/kangroo_rig_0003:Elbow_L/kangroo_rig_0003:Wrist_L/kangroo_rig_0003:ThumbFinger1_L/kangroo_rig_0003:ThumbFinger2_L/kangroo_rig_0003:ThumbFinger3_L/kangroo_rig_0003:ThumbFinger4_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_R/kangroo_rig_0003:Shoulder_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_R/kangroo_rig_0003:Shoulder_R/kangroo_rig_0003:ShoulderPart1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_R/kangroo_rig_0003:Shoulder_R/kangroo_rig_0003:ShoulderPart1_R/kangroo_rig_0003:ShoulderPart2_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_R/kangroo_rig_0003:Shoulder_R/kangroo_rig_0003:ShoulderPart1_R/kangroo_rig_0003:ShoulderPart2_R/kangroo_rig_0003:Elbow_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_R/kangroo_rig_0003:Shoulder_R/kangroo_rig_0003:ShoulderPart1_R/kangroo_rig_0003:ShoulderPart2_R/kangroo_rig_0003:Elbow_R/kangroo_rig_0003:Wrist_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_R/kangroo_rig_0003:Shoulder_R/kangroo_rig_0003:ShoulderPart1_R/kangroo_rig_0003:ShoulderPart2_R/kangroo_rig_0003:Elbow_R/kangroo_rig_0003:Wrist_R/kangroo_rig_0003:MiddleFinger1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_R/kangroo_rig_0003:Shoulder_R/kangroo_rig_0003:ShoulderPart1_R/kangroo_rig_0003:ShoulderPart2_R/kangroo_rig_0003:Elbow_R/kangroo_rig_0003:Wrist_R/kangroo_rig_0003:MiddleFinger1_R/kangroo_rig_0003:MiddleFinger2_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_R/kangroo_rig_0003:Shoulder_R/kangroo_rig_0003:ShoulderPart1_R/kangroo_rig_0003:ShoulderPart2_R/kangroo_rig_0003:Elbow_R/kangroo_rig_0003:Wrist_R/kangroo_rig_0003:MiddleFinger1_R/kangroo_rig_0003:MiddleFinger2_R/kangroo_rig_0003:MiddleFinger3_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_R/kangroo_rig_0003:Shoulder_R/kangroo_rig_0003:ShoulderPart1_R/kangroo_rig_0003:ShoulderPart2_R/kangroo_rig_0003:Elbow_R/kangroo_rig_0003:Wrist_R/kangroo_rig_0003:MiddleFinger1_R/kangroo_rig_0003:MiddleFinger2_R/kangroo_rig_0003:MiddleFinger3_R/kangroo_rig_0003:MiddleFinger4_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_R/kangroo_rig_0003:Shoulder_R/kangroo_rig_0003:ShoulderPart1_R/kangroo_rig_0003:ShoulderPart2_R/kangroo_rig_0003:Elbow_R/kangroo_rig_0003:Wrist_R/kangroo_rig_0003:ThumbFinger1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_R/kangroo_rig_0003:Shoulder_R/kangroo_rig_0003:ShoulderPart1_R/kangroo_rig_0003:ShoulderPart2_R/kangroo_rig_0003:Elbow_R/kangroo_rig_0003:Wrist_R/kangroo_rig_0003:ThumbFinger1_R/kangroo_rig_0003:ThumbFinger2_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_R/kangroo_rig_0003:Shoulder_R/kangroo_rig_0003:ShoulderPart1_R/kangroo_rig_0003:ShoulderPart2_R/kangroo_rig_0003:Elbow_R/kangroo_rig_0003:Wrist_R/kangroo_rig_0003:ThumbFinger1_R/kangroo_rig_0003:ThumbFinger2_R/kangroo_rig_0003:ThumbFinger3_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/kangroo_rig_0003:Spine1_M/kangroo_rig_0003:Chest_M/kangroo_rig_0003:Scapula_R/kangroo_rig_0003:Shoulder_R/kangroo_rig_0003:ShoulderPart1_R/kangroo_rig_0003:ShoulderPart2_R/kangroo_rig_0003:Elbow_R/kangroo_rig_0003:Wrist_R/kangroo_rig_0003:ThumbFinger1_R/kangroo_rig_0003:ThumbFinger2_R/kangroo_rig_0003:ThumbFinger3_R/kangroo_rig_0003:ThumbFinger4_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:DeformationSystem/kangroo_rig_0003:Root_M/null
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:FitSkeleton
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:AimSystem
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:AimSystem/kangroo_rig_0003:AimEye
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:AimSystem/kangroo_rig_0003:AimEye/kangroo_rig_0003:AimOffsetEye
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:AimSystem/kangroo_rig_0003:AimEye/kangroo_rig_0003:AimOffsetEye/kangroo_rig_0003:AimFollowEye
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:AimSystem/kangroo_rig_0003:AimEye/kangroo_rig_0003:AimOffsetEye/kangroo_rig_0003:AimFollowOffEye
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:AimSystem/kangroo_rig_0003:AimEye/kangroo_rig_0003:AimOffsetEye/kangroo_rig_0003:AimFollowOnEye
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:BendSystem
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:ConstraintSystem
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:DrivingSystem
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:DynamicSystem
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKIKSystem
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKIKSystem/kangroo_rig_0003:FKIKParentConstraintArm_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKIKSystem/kangroo_rig_0003:FKIKParentConstraintArm_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKIKSystem/kangroo_rig_0003:FKIKParentConstraintLeg_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKIKSystem/kangroo_rig_0003:FKIKParentConstraintLeg_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKIKSystem/kangroo_rig_0003:FKIKParentConstraintSpine_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKOffsetRoot_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKOffsetRoot_M/kangroo_rig_0003:FKExtraRoot_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToChest_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToChest_M/kangroo_rig_0003:FKOffsetNeck_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToChest_M/kangroo_rig_0003:FKOffsetNeck_M/kangroo_rig_0003:FKExtraNeck_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToChest_M/kangroo_rig_0003:FKOffsetScapula_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToChest_M/kangroo_rig_0003:FKOffsetScapula_L/kangroo_rig_0003:FKExtraScapula_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToChest_M/kangroo_rig_0003:FKOffsetScapula_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToChest_M/kangroo_rig_0003:FKOffsetScapula_R/kangroo_rig_0003:FKExtraScapula_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_L/kangroo_rig_0003:FKExtraHip_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_L/kangroo_rig_0003:FKExtraHip_L/kangroo_rig_0003:FKHip_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_L/kangroo_rig_0003:FKExtraHip_L/kangroo_rig_0003:FKHip_L/kangroo_rig_0003:FKXHip_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_L/kangroo_rig_0003:FKExtraHip_L/kangroo_rig_0003:FKHip_L/kangroo_rig_0003:FKXHip_L/kangroo_rig_0003:FKOffsetKnee_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_L/kangroo_rig_0003:FKExtraHip_L/kangroo_rig_0003:FKHip_L/kangroo_rig_0003:FKXHip_L/kangroo_rig_0003:FKOffsetKnee_L/kangroo_rig_0003:FKExtraKnee_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_L/kangroo_rig_0003:FKExtraHip_L/kangroo_rig_0003:FKHip_L/kangroo_rig_0003:FKXHip_L/kangroo_rig_0003:FKOffsetKnee_L/kangroo_rig_0003:FKExtraKnee_L/kangroo_rig_0003:FKKnee_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_L/kangroo_rig_0003:FKExtraHip_L/kangroo_rig_0003:FKHip_L/kangroo_rig_0003:FKXHip_L/kangroo_rig_0003:FKOffsetKnee_L/kangroo_rig_0003:FKExtraKnee_L/kangroo_rig_0003:FKKnee_L/kangroo_rig_0003:FKXKnee_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_L/kangroo_rig_0003:FKExtraHip_L/kangroo_rig_0003:FKHip_L/kangroo_rig_0003:FKXHip_L/kangroo_rig_0003:FKOffsetKnee_L/kangroo_rig_0003:FKExtraKnee_L/kangroo_rig_0003:FKKnee_L/kangroo_rig_0003:FKXKnee_L/kangroo_rig_0003:FKOffsetAnkle_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_L/kangroo_rig_0003:FKExtraHip_L/kangroo_rig_0003:FKHip_L/kangroo_rig_0003:FKXHip_L/kangroo_rig_0003:FKOffsetKnee_L/kangroo_rig_0003:FKExtraKnee_L/kangroo_rig_0003:FKKnee_L/kangroo_rig_0003:FKXKnee_L/kangroo_rig_0003:FKOffsetAnkle_L/kangroo_rig_0003:FKExtraAnkle_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_L/kangroo_rig_0003:FKExtraHip_L/kangroo_rig_0003:FKHip_L/kangroo_rig_0003:FKXHip_L/kangroo_rig_0003:FKOffsetKnee_L/kangroo_rig_0003:FKExtraKnee_L/kangroo_rig_0003:FKKnee_L/kangroo_rig_0003:FKXKnee_L/kangroo_rig_0003:FKOffsetAnkle_L/kangroo_rig_0003:FKExtraAnkle_L/kangroo_rig_0003:FKAnkle_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_L/kangroo_rig_0003:FKExtraHip_L/kangroo_rig_0003:FKHip_L/kangroo_rig_0003:FKXHip_L/kangroo_rig_0003:FKOffsetKnee_L/kangroo_rig_0003:FKExtraKnee_L/kangroo_rig_0003:FKKnee_L/kangroo_rig_0003:FKXKnee_L/kangroo_rig_0003:FKOffsetAnkle_L/kangroo_rig_0003:FKExtraAnkle_L/kangroo_rig_0003:FKAnkle_L/kangroo_rig_0003:FKXAnkle_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_L/kangroo_rig_0003:FKExtraHip_L/kangroo_rig_0003:FKHip_L/kangroo_rig_0003:FKXHip_L/kangroo_rig_0003:FKOffsetKnee_L/kangroo_rig_0003:FKExtraKnee_L/kangroo_rig_0003:FKKnee_L/kangroo_rig_0003:FKXKnee_L/kangroo_rig_0003:FKOffsetAnkle_L/kangroo_rig_0003:FKExtraAnkle_L/kangroo_rig_0003:FKAnkle_L/kangroo_rig_0003:FKXAnkle_L/kangroo_rig_0003:AlignIKToAnkle_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_L/kangroo_rig_0003:FKExtraHip_L/kangroo_rig_0003:FKHip_L/kangroo_rig_0003:FKXHip_L/kangroo_rig_0003:FKOffsetKnee_L/kangroo_rig_0003:FKExtraKnee_L/kangroo_rig_0003:FKKnee_L/kangroo_rig_0003:FKXKnee_L/kangroo_rig_0003:FKOffsetAnkle_L/kangroo_rig_0003:FKExtraAnkle_L/kangroo_rig_0003:FKAnkle_L/kangroo_rig_0003:FKXAnkle_L/kangroo_rig_0003:FKOffsetToes_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_L/kangroo_rig_0003:FKExtraHip_L/kangroo_rig_0003:FKHip_L/kangroo_rig_0003:FKXHip_L/kangroo_rig_0003:FKOffsetKnee_L/kangroo_rig_0003:FKExtraKnee_L/kangroo_rig_0003:FKKnee_L/kangroo_rig_0003:FKXKnee_L/kangroo_rig_0003:FKOffsetAnkle_L/kangroo_rig_0003:FKExtraAnkle_L/kangroo_rig_0003:FKAnkle_L/kangroo_rig_0003:FKXAnkle_L/kangroo_rig_0003:FKOffsetToes_L/kangroo_rig_0003:FKExtraToes_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_L/kangroo_rig_0003:FKExtraHip_L/kangroo_rig_0003:FKHip_L/kangroo_rig_0003:FKXHip_L/kangroo_rig_0003:FKOffsetKnee_L/kangroo_rig_0003:FKExtraKnee_L/kangroo_rig_0003:FKKnee_L/kangroo_rig_0003:FKXKnee_L/kangroo_rig_0003:FKOffsetAnkle_L/kangroo_rig_0003:FKExtraAnkle_L/kangroo_rig_0003:FKAnkle_L/kangroo_rig_0003:FKXAnkle_L/kangroo_rig_0003:FKOffsetToes_L/kangroo_rig_0003:FKExtraToes_L/kangroo_rig_0003:FKToes_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_L/kangroo_rig_0003:FKExtraHip_L/kangroo_rig_0003:FKHip_L/kangroo_rig_0003:FKXHip_L/kangroo_rig_0003:FKOffsetKnee_L/kangroo_rig_0003:FKExtraKnee_L/kangroo_rig_0003:FKKnee_L/kangroo_rig_0003:FKXKnee_L/kangroo_rig_0003:FKOffsetAnkle_L/kangroo_rig_0003:FKExtraAnkle_L/kangroo_rig_0003:FKAnkle_L/kangroo_rig_0003:FKXAnkle_L/kangroo_rig_0003:FKOffsetToes_L/kangroo_rig_0003:FKExtraToes_L/kangroo_rig_0003:FKToes_L/kangroo_rig_0003:FKXToes_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_R/kangroo_rig_0003:FKExtraHip_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_R/kangroo_rig_0003:FKExtraHip_R/kangroo_rig_0003:FKHip_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_R/kangroo_rig_0003:FKExtraHip_R/kangroo_rig_0003:FKHip_R/kangroo_rig_0003:FKXHip_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_R/kangroo_rig_0003:FKExtraHip_R/kangroo_rig_0003:FKHip_R/kangroo_rig_0003:FKXHip_R/kangroo_rig_0003:FKOffsetKnee_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_R/kangroo_rig_0003:FKExtraHip_R/kangroo_rig_0003:FKHip_R/kangroo_rig_0003:FKXHip_R/kangroo_rig_0003:FKOffsetKnee_R/kangroo_rig_0003:FKExtraKnee_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_R/kangroo_rig_0003:FKExtraHip_R/kangroo_rig_0003:FKHip_R/kangroo_rig_0003:FKXHip_R/kangroo_rig_0003:FKOffsetKnee_R/kangroo_rig_0003:FKExtraKnee_R/kangroo_rig_0003:FKKnee_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_R/kangroo_rig_0003:FKExtraHip_R/kangroo_rig_0003:FKHip_R/kangroo_rig_0003:FKXHip_R/kangroo_rig_0003:FKOffsetKnee_R/kangroo_rig_0003:FKExtraKnee_R/kangroo_rig_0003:FKKnee_R/kangroo_rig_0003:FKXKnee_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_R/kangroo_rig_0003:FKExtraHip_R/kangroo_rig_0003:FKHip_R/kangroo_rig_0003:FKXHip_R/kangroo_rig_0003:FKOffsetKnee_R/kangroo_rig_0003:FKExtraKnee_R/kangroo_rig_0003:FKKnee_R/kangroo_rig_0003:FKXKnee_R/kangroo_rig_0003:FKOffsetAnkle_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_R/kangroo_rig_0003:FKExtraHip_R/kangroo_rig_0003:FKHip_R/kangroo_rig_0003:FKXHip_R/kangroo_rig_0003:FKOffsetKnee_R/kangroo_rig_0003:FKExtraKnee_R/kangroo_rig_0003:FKKnee_R/kangroo_rig_0003:FKXKnee_R/kangroo_rig_0003:FKOffsetAnkle_R/kangroo_rig_0003:FKExtraAnkle_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_R/kangroo_rig_0003:FKExtraHip_R/kangroo_rig_0003:FKHip_R/kangroo_rig_0003:FKXHip_R/kangroo_rig_0003:FKOffsetKnee_R/kangroo_rig_0003:FKExtraKnee_R/kangroo_rig_0003:FKKnee_R/kangroo_rig_0003:FKXKnee_R/kangroo_rig_0003:FKOffsetAnkle_R/kangroo_rig_0003:FKExtraAnkle_R/kangroo_rig_0003:FKAnkle_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_R/kangroo_rig_0003:FKExtraHip_R/kangroo_rig_0003:FKHip_R/kangroo_rig_0003:FKXHip_R/kangroo_rig_0003:FKOffsetKnee_R/kangroo_rig_0003:FKExtraKnee_R/kangroo_rig_0003:FKKnee_R/kangroo_rig_0003:FKXKnee_R/kangroo_rig_0003:FKOffsetAnkle_R/kangroo_rig_0003:FKExtraAnkle_R/kangroo_rig_0003:FKAnkle_R/kangroo_rig_0003:FKXAnkle_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_R/kangroo_rig_0003:FKExtraHip_R/kangroo_rig_0003:FKHip_R/kangroo_rig_0003:FKXHip_R/kangroo_rig_0003:FKOffsetKnee_R/kangroo_rig_0003:FKExtraKnee_R/kangroo_rig_0003:FKKnee_R/kangroo_rig_0003:FKXKnee_R/kangroo_rig_0003:FKOffsetAnkle_R/kangroo_rig_0003:FKExtraAnkle_R/kangroo_rig_0003:FKAnkle_R/kangroo_rig_0003:FKXAnkle_R/kangroo_rig_0003:AlignIKToAnkle_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_R/kangroo_rig_0003:FKExtraHip_R/kangroo_rig_0003:FKHip_R/kangroo_rig_0003:FKXHip_R/kangroo_rig_0003:FKOffsetKnee_R/kangroo_rig_0003:FKExtraKnee_R/kangroo_rig_0003:FKKnee_R/kangroo_rig_0003:FKXKnee_R/kangroo_rig_0003:FKOffsetAnkle_R/kangroo_rig_0003:FKExtraAnkle_R/kangroo_rig_0003:FKAnkle_R/kangroo_rig_0003:FKXAnkle_R/kangroo_rig_0003:FKOffsetToes_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_R/kangroo_rig_0003:FKExtraHip_R/kangroo_rig_0003:FKHip_R/kangroo_rig_0003:FKXHip_R/kangroo_rig_0003:FKOffsetKnee_R/kangroo_rig_0003:FKExtraKnee_R/kangroo_rig_0003:FKKnee_R/kangroo_rig_0003:FKXKnee_R/kangroo_rig_0003:FKOffsetAnkle_R/kangroo_rig_0003:FKExtraAnkle_R/kangroo_rig_0003:FKAnkle_R/kangroo_rig_0003:FKXAnkle_R/kangroo_rig_0003:FKOffsetToes_R/kangroo_rig_0003:FKExtraToes_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_R/kangroo_rig_0003:FKExtraHip_R/kangroo_rig_0003:FKHip_R/kangroo_rig_0003:FKXHip_R/kangroo_rig_0003:FKOffsetKnee_R/kangroo_rig_0003:FKExtraKnee_R/kangroo_rig_0003:FKKnee_R/kangroo_rig_0003:FKXKnee_R/kangroo_rig_0003:FKOffsetAnkle_R/kangroo_rig_0003:FKExtraAnkle_R/kangroo_rig_0003:FKAnkle_R/kangroo_rig_0003:FKXAnkle_R/kangroo_rig_0003:FKOffsetToes_R/kangroo_rig_0003:FKExtraToes_R/kangroo_rig_0003:FKToes_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToRoot_M/kangroo_rig_0003:FKOffsetHip_R/kangroo_rig_0003:FKExtraHip_R/kangroo_rig_0003:FKHip_R/kangroo_rig_0003:FKXHip_R/kangroo_rig_0003:FKOffsetKnee_R/kangroo_rig_0003:FKExtraKnee_R/kangroo_rig_0003:FKKnee_R/kangroo_rig_0003:FKXKnee_R/kangroo_rig_0003:FKOffsetAnkle_R/kangroo_rig_0003:FKExtraAnkle_R/kangroo_rig_0003:FKAnkle_R/kangroo_rig_0003:FKXAnkle_R/kangroo_rig_0003:FKOffsetToes_R/kangroo_rig_0003:FKExtraToes_R/kangroo_rig_0003:FKToes_R/kangroo_rig_0003:FKXToes_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_L/kangroo_rig_0003:FKOffsetShoulder_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_L/kangroo_rig_0003:FKOffsetShoulder_L/kangroo_rig_0003:FKExtraShoulder_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_L/kangroo_rig_0003:FKOffsetShoulder_L/kangroo_rig_0003:FKExtraShoulder_L/kangroo_rig_0003:FKShoulder_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_L/kangroo_rig_0003:FKOffsetShoulder_L/kangroo_rig_0003:FKExtraShoulder_L/kangroo_rig_0003:FKShoulder_L/kangroo_rig_0003:FKXShoulder_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_L/kangroo_rig_0003:FKOffsetShoulder_L/kangroo_rig_0003:FKExtraShoulder_L/kangroo_rig_0003:FKShoulder_L/kangroo_rig_0003:FKXShoulder_L/kangroo_rig_0003:FKOffsetElbow_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_L/kangroo_rig_0003:FKOffsetShoulder_L/kangroo_rig_0003:FKExtraShoulder_L/kangroo_rig_0003:FKShoulder_L/kangroo_rig_0003:FKXShoulder_L/kangroo_rig_0003:FKOffsetElbow_L/kangroo_rig_0003:FKExtraElbow_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_L/kangroo_rig_0003:FKOffsetShoulder_L/kangroo_rig_0003:FKExtraShoulder_L/kangroo_rig_0003:FKShoulder_L/kangroo_rig_0003:FKXShoulder_L/kangroo_rig_0003:FKOffsetElbow_L/kangroo_rig_0003:FKExtraElbow_L/kangroo_rig_0003:FKElbow_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_L/kangroo_rig_0003:FKOffsetShoulder_L/kangroo_rig_0003:FKExtraShoulder_L/kangroo_rig_0003:FKShoulder_L/kangroo_rig_0003:FKXShoulder_L/kangroo_rig_0003:FKOffsetElbow_L/kangroo_rig_0003:FKExtraElbow_L/kangroo_rig_0003:FKElbow_L/kangroo_rig_0003:FKXElbow_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_L/kangroo_rig_0003:FKOffsetShoulder_L/kangroo_rig_0003:FKExtraShoulder_L/kangroo_rig_0003:FKShoulder_L/kangroo_rig_0003:FKXShoulder_L/kangroo_rig_0003:FKOffsetElbow_L/kangroo_rig_0003:FKExtraElbow_L/kangroo_rig_0003:FKElbow_L/kangroo_rig_0003:FKXElbow_L/kangroo_rig_0003:FKOffsetWrist_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_L/kangroo_rig_0003:FKOffsetShoulder_L/kangroo_rig_0003:FKExtraShoulder_L/kangroo_rig_0003:FKShoulder_L/kangroo_rig_0003:FKXShoulder_L/kangroo_rig_0003:FKOffsetElbow_L/kangroo_rig_0003:FKExtraElbow_L/kangroo_rig_0003:FKElbow_L/kangroo_rig_0003:FKXElbow_L/kangroo_rig_0003:FKOffsetWrist_L/kangroo_rig_0003:FKExtraWrist_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_L/kangroo_rig_0003:FKOffsetShoulder_L/kangroo_rig_0003:FKExtraShoulder_L/kangroo_rig_0003:FKShoulder_L/kangroo_rig_0003:FKXShoulder_L/kangroo_rig_0003:FKOffsetElbow_L/kangroo_rig_0003:FKExtraElbow_L/kangroo_rig_0003:FKElbow_L/kangroo_rig_0003:FKXElbow_L/kangroo_rig_0003:FKOffsetWrist_L/kangroo_rig_0003:FKExtraWrist_L/kangroo_rig_0003:FKWrist_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_L/kangroo_rig_0003:FKOffsetShoulder_L/kangroo_rig_0003:FKExtraShoulder_L/kangroo_rig_0003:FKShoulder_L/kangroo_rig_0003:FKXShoulder_L/kangroo_rig_0003:FKOffsetElbow_L/kangroo_rig_0003:FKExtraElbow_L/kangroo_rig_0003:FKElbow_L/kangroo_rig_0003:FKXElbow_L/kangroo_rig_0003:FKOffsetWrist_L/kangroo_rig_0003:FKExtraWrist_L/kangroo_rig_0003:FKWrist_L/kangroo_rig_0003:FKXWrist_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_L/kangroo_rig_0003:FKOffsetShoulder_L/kangroo_rig_0003:FKExtraShoulder_L/kangroo_rig_0003:FKShoulder_L/kangroo_rig_0003:FKXShoulder_L/kangroo_rig_0003:FKOffsetElbow_L/kangroo_rig_0003:FKExtraElbow_L/kangroo_rig_0003:FKElbow_L/kangroo_rig_0003:FKXElbow_L/kangroo_rig_0003:FKOffsetWrist_L/kangroo_rig_0003:FKExtraWrist_L/kangroo_rig_0003:FKWrist_L/kangroo_rig_0003:FKXWrist_L/kangroo_rig_0003:AlignIKToWrist_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_R/kangroo_rig_0003:FKOffsetShoulder_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_R/kangroo_rig_0003:FKOffsetShoulder_R/kangroo_rig_0003:FKExtraShoulder_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_R/kangroo_rig_0003:FKOffsetShoulder_R/kangroo_rig_0003:FKExtraShoulder_R/kangroo_rig_0003:FKShoulder_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_R/kangroo_rig_0003:FKOffsetShoulder_R/kangroo_rig_0003:FKExtraShoulder_R/kangroo_rig_0003:FKShoulder_R/kangroo_rig_0003:FKXShoulder_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_R/kangroo_rig_0003:FKOffsetShoulder_R/kangroo_rig_0003:FKExtraShoulder_R/kangroo_rig_0003:FKShoulder_R/kangroo_rig_0003:FKXShoulder_R/kangroo_rig_0003:FKOffsetElbow_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_R/kangroo_rig_0003:FKOffsetShoulder_R/kangroo_rig_0003:FKExtraShoulder_R/kangroo_rig_0003:FKShoulder_R/kangroo_rig_0003:FKXShoulder_R/kangroo_rig_0003:FKOffsetElbow_R/kangroo_rig_0003:FKExtraElbow_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_R/kangroo_rig_0003:FKOffsetShoulder_R/kangroo_rig_0003:FKExtraShoulder_R/kangroo_rig_0003:FKShoulder_R/kangroo_rig_0003:FKXShoulder_R/kangroo_rig_0003:FKOffsetElbow_R/kangroo_rig_0003:FKExtraElbow_R/kangroo_rig_0003:FKElbow_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_R/kangroo_rig_0003:FKOffsetShoulder_R/kangroo_rig_0003:FKExtraShoulder_R/kangroo_rig_0003:FKShoulder_R/kangroo_rig_0003:FKXShoulder_R/kangroo_rig_0003:FKOffsetElbow_R/kangroo_rig_0003:FKExtraElbow_R/kangroo_rig_0003:FKElbow_R/kangroo_rig_0003:FKXElbow_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_R/kangroo_rig_0003:FKOffsetShoulder_R/kangroo_rig_0003:FKExtraShoulder_R/kangroo_rig_0003:FKShoulder_R/kangroo_rig_0003:FKXShoulder_R/kangroo_rig_0003:FKOffsetElbow_R/kangroo_rig_0003:FKExtraElbow_R/kangroo_rig_0003:FKElbow_R/kangroo_rig_0003:FKXElbow_R/kangroo_rig_0003:FKOffsetWrist_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_R/kangroo_rig_0003:FKOffsetShoulder_R/kangroo_rig_0003:FKExtraShoulder_R/kangroo_rig_0003:FKShoulder_R/kangroo_rig_0003:FKXShoulder_R/kangroo_rig_0003:FKOffsetElbow_R/kangroo_rig_0003:FKExtraElbow_R/kangroo_rig_0003:FKElbow_R/kangroo_rig_0003:FKXElbow_R/kangroo_rig_0003:FKOffsetWrist_R/kangroo_rig_0003:FKExtraWrist_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_R/kangroo_rig_0003:FKOffsetShoulder_R/kangroo_rig_0003:FKExtraShoulder_R/kangroo_rig_0003:FKShoulder_R/kangroo_rig_0003:FKXShoulder_R/kangroo_rig_0003:FKOffsetElbow_R/kangroo_rig_0003:FKExtraElbow_R/kangroo_rig_0003:FKElbow_R/kangroo_rig_0003:FKXElbow_R/kangroo_rig_0003:FKOffsetWrist_R/kangroo_rig_0003:FKExtraWrist_R/kangroo_rig_0003:FKWrist_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_R/kangroo_rig_0003:FKOffsetShoulder_R/kangroo_rig_0003:FKExtraShoulder_R/kangroo_rig_0003:FKShoulder_R/kangroo_rig_0003:FKXShoulder_R/kangroo_rig_0003:FKOffsetElbow_R/kangroo_rig_0003:FKExtraElbow_R/kangroo_rig_0003:FKElbow_R/kangroo_rig_0003:FKXElbow_R/kangroo_rig_0003:FKOffsetWrist_R/kangroo_rig_0003:FKExtraWrist_R/kangroo_rig_0003:FKWrist_R/kangroo_rig_0003:FKXWrist_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToScapula_R/kangroo_rig_0003:FKOffsetShoulder_R/kangroo_rig_0003:FKExtraShoulder_R/kangroo_rig_0003:FKShoulder_R/kangroo_rig_0003:FKXShoulder_R/kangroo_rig_0003:FKOffsetElbow_R/kangroo_rig_0003:FKExtraElbow_R/kangroo_rig_0003:FKElbow_R/kangroo_rig_0003:FKXElbow_R/kangroo_rig_0003:FKOffsetWrist_R/kangroo_rig_0003:FKExtraWrist_R/kangroo_rig_0003:FKWrist_R/kangroo_rig_0003:FKXWrist_R/kangroo_rig_0003:AlignIKToWrist_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_L/kangroo_rig_0003:FKOffsetIndexFinger1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_L/kangroo_rig_0003:FKOffsetIndexFinger1_L/kangroo_rig_0003:SDK1FKIndexFinger1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_L/kangroo_rig_0003:FKOffsetIndexFinger1_L/kangroo_rig_0003:SDK1FKIndexFinger1_L/kangroo_rig_0003:SDK2FKIndexFinger1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_L/kangroo_rig_0003:FKOffsetIndexFinger1_L/kangroo_rig_0003:SDK1FKIndexFinger1_L/kangroo_rig_0003:SDK2FKIndexFinger1_L/kangroo_rig_0003:FKExtraIndexFinger1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_L/kangroo_rig_0003:FKOffsetMiddleFinger1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_L/kangroo_rig_0003:FKOffsetMiddleFinger1_L/kangroo_rig_0003:SDK1FKMiddleFinger1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_L/kangroo_rig_0003:FKOffsetMiddleFinger1_L/kangroo_rig_0003:SDK1FKMiddleFinger1_L/kangroo_rig_0003:FKExtraMiddleFinger1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_L/kangroo_rig_0003:FKOffsetPinkyFinger1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_L/kangroo_rig_0003:FKOffsetPinkyFinger1_L/kangroo_rig_0003:SDK1FKPinkyFinger1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_L/kangroo_rig_0003:FKOffsetPinkyFinger1_L/kangroo_rig_0003:SDK1FKPinkyFinger1_L/kangroo_rig_0003:SDK2FKPinkyFinger1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_L/kangroo_rig_0003:FKOffsetPinkyFinger1_L/kangroo_rig_0003:SDK1FKPinkyFinger1_L/kangroo_rig_0003:SDK2FKPinkyFinger1_L/kangroo_rig_0003:FKExtraPinkyFinger1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_L/kangroo_rig_0003:FKOffsetRingFinger1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_L/kangroo_rig_0003:FKOffsetRingFinger1_L/kangroo_rig_0003:SDK1FKRingFinger1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_L/kangroo_rig_0003:FKOffsetRingFinger1_L/kangroo_rig_0003:SDK1FKRingFinger1_L/kangroo_rig_0003:SDK2FKRingFinger1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_L/kangroo_rig_0003:FKOffsetRingFinger1_L/kangroo_rig_0003:SDK1FKRingFinger1_L/kangroo_rig_0003:SDK2FKRingFinger1_L/kangroo_rig_0003:FKExtraRingFinger1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_L/kangroo_rig_0003:FKOffsetThumbFinger1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_L/kangroo_rig_0003:FKOffsetThumbFinger1_L/kangroo_rig_0003:FKExtraThumbFinger1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_R/kangroo_rig_0003:FKOffsetIndexFinger1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_R/kangroo_rig_0003:FKOffsetIndexFinger1_R/kangroo_rig_0003:SDK1FKIndexFinger1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_R/kangroo_rig_0003:FKOffsetIndexFinger1_R/kangroo_rig_0003:SDK1FKIndexFinger1_R/kangroo_rig_0003:SDK2FKIndexFinger1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_R/kangroo_rig_0003:FKOffsetIndexFinger1_R/kangroo_rig_0003:SDK1FKIndexFinger1_R/kangroo_rig_0003:SDK2FKIndexFinger1_R/kangroo_rig_0003:FKExtraIndexFinger1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_R/kangroo_rig_0003:FKOffsetMiddleFinger1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_R/kangroo_rig_0003:FKOffsetMiddleFinger1_R/kangroo_rig_0003:SDK1FKMiddleFinger1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_R/kangroo_rig_0003:FKOffsetMiddleFinger1_R/kangroo_rig_0003:SDK1FKMiddleFinger1_R/kangroo_rig_0003:FKExtraMiddleFinger1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_R/kangroo_rig_0003:FKOffsetPinkyFinger1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_R/kangroo_rig_0003:FKOffsetPinkyFinger1_R/kangroo_rig_0003:SDK1FKPinkyFinger1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_R/kangroo_rig_0003:FKOffsetPinkyFinger1_R/kangroo_rig_0003:SDK1FKPinkyFinger1_R/kangroo_rig_0003:SDK2FKPinkyFinger1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_R/kangroo_rig_0003:FKOffsetPinkyFinger1_R/kangroo_rig_0003:SDK1FKPinkyFinger1_R/kangroo_rig_0003:SDK2FKPinkyFinger1_R/kangroo_rig_0003:FKExtraPinkyFinger1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_R/kangroo_rig_0003:FKOffsetRingFinger1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_R/kangroo_rig_0003:FKOffsetRingFinger1_R/kangroo_rig_0003:SDK1FKRingFinger1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_R/kangroo_rig_0003:FKOffsetRingFinger1_R/kangroo_rig_0003:SDK1FKRingFinger1_R/kangroo_rig_0003:SDK2FKRingFinger1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_R/kangroo_rig_0003:FKOffsetRingFinger1_R/kangroo_rig_0003:SDK1FKRingFinger1_R/kangroo_rig_0003:SDK2FKRingFinger1_R/kangroo_rig_0003:FKExtraRingFinger1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_R/kangroo_rig_0003:FKOffsetThumbFinger1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:FKSystem/kangroo_rig_0003:FKParentConstraintToWrist_R/kangroo_rig_0003:FKOffsetThumbFinger1_R/kangroo_rig_0003:FKExtraThumbFinger1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:GlobalSystem
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:GlobalSystem/kangroo_rig_0003:GlobalOffsetHead_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:GlobalSystem/kangroo_rig_0003:GlobalOffsetHead_M/kangroo_rig_0003:GlobalHead_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKCurve
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKCurve/kangroo_rig_0003:IKSpineCurve_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKFollow
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKFollow/kangroo_rig_0003:IKOffsetArm_LFollow
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKFollow/kangroo_rig_0003:IKOffsetArm_LFollowNoScale
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKFollow/kangroo_rig_0003:IKOffsetArm_RFollow
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKFollow/kangroo_rig_0003:IKOffsetArm_RFollowNoScale
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKFollow/kangroo_rig_0003:PoleOffsetLeg_LFollow
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKFollow/kangroo_rig_0003:PoleOffsetLeg_LFollowNoScale
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKFollow/kangroo_rig_0003:PoleOffsetLeg_RFollow
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKFollow/kangroo_rig_0003:PoleOffsetLeg_RFollowNoScale
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:IKOffsetArm_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:IKOffsetArm_L/kangroo_rig_0003:IKExtraArm_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:IKOffsetArm_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:IKOffsetArm_R/kangroo_rig_0003:IKExtraArm_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:IKOffsetLeg_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:IKOffsetLeg_L/kangroo_rig_0003:IKExtraLeg_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:IKOffsetLeg_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:IKOffsetLeg_R/kangroo_rig_0003:IKExtraLeg_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:IKScalerChest_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:IKScalerRoot_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:IKScalerSpine1_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:IKSpineHandle_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:PoleAimLeg_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:PoleAimLeg_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:PoleOffsetArm_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:PoleOffsetArm_L/kangroo_rig_0003:PoleExtraArm_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:PoleOffsetArm_L/kangroo_rig_0003:PoleExtraArm_L/kangroo_rig_0003:PoleArm_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:PoleOffsetArm_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:PoleOffsetArm_R/kangroo_rig_0003:PoleExtraArm_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:PoleOffsetLeg_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:PoleOffsetLeg_L/kangroo_rig_0003:PoleExtraLeg_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:PoleOffsetLeg_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKHandle/kangroo_rig_0003:PoleOffsetLeg_R/kangroo_rig_0003:PoleExtraLeg_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintHip_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintHip_L/kangroo_rig_0003:IKMessureFromHip_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintHip_L/kangroo_rig_0003:IKXOffsetHip_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintHip_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintHip_R/kangroo_rig_0003:IKMessureFromHip_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintHip_R/kangroo_rig_0003:IKXOffsetHip_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintRoot_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintRoot_M/kangroo_rig_0003:IKfake0Spine_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintRoot_M/kangroo_rig_0003:IKfake0Spine_M/kangroo_rig_0003:IKfake1Spine_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintRoot_M/kangroo_rig_0003:IKfake0Spine_M/kangroo_rig_0003:IKfake1Spine_M/kangroo_rig_0003:IKFake1UpLocSpine_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintRoot_M/kangroo_rig_0003:IKfake0Spine_M/kangroo_rig_0003:IKfake1Spine_M/kangroo_rig_0003:IKfake2Spine_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintRoot_M/kangroo_rig_0003:IKfake0Spine_M/kangroo_rig_0003:IKfake1Spine_M/kangroo_rig_0003:IKfake2Spine_M/kangroo_rig_0003:IKfake3Spine_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintRoot_M/kangroo_rig_0003:IKfake0Spine_M/kangroo_rig_0003:IKSpRootFollowOffset_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintRoot_M/kangroo_rig_0003:IKfake0Spine_M/kangroo_rig_0003:IKSpSpine1_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintRoot_M/kangroo_rig_0003:IKfake0Spine_M/kangroo_rig_0003:IKSpSpine1_M/kangroo_rig_0003:IKSpChest_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintRoot_M/kangroo_rig_0003:IKfake0Spine_M/kangroo_rig_0003:IKSpSpine1_M/kangroo_rig_0003:IKSpChest_M/kangroo_rig_0003:IKSpChestFollowOffset_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintRoot_M/kangroo_rig_0003:IKfake0Spine_M/kangroo_rig_0003:IKSpSpine1_M/kangroo_rig_0003:IKSpSpine1FollowOffset_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintRoot_M/kangroo_rig_0003:IKXOffsetRoot_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintRoot_M/kangroo_rig_0003:IKXOffsetRoot_M/kangroo_rig_0003:IKXRoot_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintRoot_M/kangroo_rig_0003:IKXOffsetRoot_M/kangroo_rig_0003:IKXRoot_M/kangroo_rig_0003:IKX2Root_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintRoot_M/kangroo_rig_0003:IKXOffsetRoot_M/kangroo_rig_0003:IKXRoot_M/kangroo_rig_0003:IKXSpine1_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintRoot_M/kangroo_rig_0003:IKXOffsetRoot_M/kangroo_rig_0003:IKXRoot_M/kangroo_rig_0003:IKXSpine1_M/kangroo_rig_0003:IKX2Spine1_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintRoot_M/kangroo_rig_0003:IKXOffsetRoot_M/kangroo_rig_0003:IKXRoot_M/kangroo_rig_0003:IKXSpine1_M/kangroo_rig_0003:IKXChest_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintRoot_M/kangroo_rig_0003:IKXOffsetRoot_M/kangroo_rig_0003:IKXRoot_M/kangroo_rig_0003:IKXSpine1_M/kangroo_rig_0003:IKXChest_M/kangroo_rig_0003:IKX2Chest_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintShoulder_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintShoulder_L/kangroo_rig_0003:IKMessureFromShoulder_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintShoulder_L/kangroo_rig_0003:IKXOffsetShoulder_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintShoulder_L/kangroo_rig_0003:IKXOffsetShoulder_L/kangroo_rig_0003:IKXShoulder_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintShoulder_L/kangroo_rig_0003:IKXOffsetShoulder_L/kangroo_rig_0003:IKXShoulder_L/kangroo_rig_0003:IKX2Shoulder_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintShoulder_L/kangroo_rig_0003:IKXOffsetShoulder_L/kangroo_rig_0003:IKXShoulder_L/kangroo_rig_0003:IKXElbow_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintShoulder_L/kangroo_rig_0003:IKXOffsetShoulder_L/kangroo_rig_0003:IKXShoulder_L/kangroo_rig_0003:IKXElbow_L/kangroo_rig_0003:IKX2Elbow_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintShoulder_L/kangroo_rig_0003:IKXOffsetShoulder_L/kangroo_rig_0003:IKXShoulder_L/kangroo_rig_0003:IKXElbow_L/kangroo_rig_0003:IKXWrist_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintShoulder_L/kangroo_rig_0003:IKXOffsetShoulder_L/kangroo_rig_0003:IKXShoulder_L/kangroo_rig_0003:IKXElbow_L/kangroo_rig_0003:IKXWrist_L/kangroo_rig_0003:IKX2Wrist_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintShoulder_L/kangroo_rig_0003:IKXOffsetShoulder_L/kangroo_rig_0003:IKXShoulder_L/kangroo_rig_0003:IKXElbow_L/kangroo_rig_0003:PoleAnnotationArm_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintShoulder_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintShoulder_R/kangroo_rig_0003:IKMessureFromShoulder_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKParentConstraintShoulder_R/kangroo_rig_0003:IKXOffsetShoulder_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKSpSpineOffset_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKJoints/kangroo_rig_0003:IKSpSpineOffset_M/kangroo_rig_0003:IKSpRoot_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKMessure
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKMessure/kangroo_rig_0003:IKdistanceArm_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKMessure/kangroo_rig_0003:IKdistanceArm_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKMessure/kangroo_rig_0003:IKdistanceLeg_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKMessure/kangroo_rig_0003:IKdistanceLeg_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKMessure/kangroo_rig_0003:IKmessureLoc1Arm_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKMessure/kangroo_rig_0003:IKmessureLoc1Arm_L/kangroo_rig_0003:IKmessureLoc2Arm_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKMessure/kangroo_rig_0003:IKmessureLoc1Arm_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKMessure/kangroo_rig_0003:IKmessureLoc1Arm_R/kangroo_rig_0003:IKmessureLoc2Arm_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKMessure/kangroo_rig_0003:IKmessureLoc1Leg_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKMessure/kangroo_rig_0003:IKmessureLoc1Leg_L/kangroo_rig_0003:IKmessureLoc2Leg_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKMessure/kangroo_rig_0003:IKmessureLoc1Leg_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKMessure/kangroo_rig_0003:IKmessureLoc1Leg_R/kangroo_rig_0003:IKmessureLoc2Leg_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKOffsetSpine1_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKOffsetSpine1_M/kangroo_rig_0003:IKExtraSpine1_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKOffsetSpine1_M/kangroo_rig_0003:IKExtraSpine1_M/kangroo_rig_0003:IKSpine1_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKOffsetSpine1_M/kangroo_rig_0003:IKExtraSpine1_M/kangroo_rig_0003:IKSpine1_M/kangroo_rig_0003:IKSpine0AlignTo_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKOffsetSpine1_M/kangroo_rig_0003:IKExtraSpine1_M/kangroo_rig_0003:IKSpine1_M/kangroo_rig_0003:IKSpineLocator0_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKOffsetSpine1_M/kangroo_rig_0003:IKExtraSpine1_M/kangroo_rig_0003:IKSpine1_M/kangroo_rig_0003:IKStiffOrientSpine1_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKOffsetSpine1_M/kangroo_rig_0003:IKExtraSpine1_M/kangroo_rig_0003:IKSpine1_M/kangroo_rig_0003:IKStiffOrientSpine1_M/kangroo_rig_0003:IKSpineLocator1_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKOffsetSpine2_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKOffsetSpine2_M/kangroo_rig_0003:IKExtraSpine2_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKOffsetSpine2_M/kangroo_rig_0003:IKExtraSpine2_M/kangroo_rig_0003:IKSpine2_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKOffsetSpine2_M/kangroo_rig_0003:IKExtraSpine2_M/kangroo_rig_0003:IKSpine2_M/kangroo_rig_0003:IKSpine2AlignTo_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKOffsetSpine2_M/kangroo_rig_0003:IKExtraSpine2_M/kangroo_rig_0003:IKSpine2_M/kangroo_rig_0003:IKSpine2AlignUnIKTwistToOffset_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKOffsetSpine2_M/kangroo_rig_0003:IKExtraSpine2_M/kangroo_rig_0003:IKSpine2_M/kangroo_rig_0003:IKSpine2AlignUnIKTwistToOffset_M/kangroo_rig_0003:IKSpine2AlignUnIKTwistTo_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKOffsetSpine2_M/kangroo_rig_0003:IKExtraSpine2_M/kangroo_rig_0003:IKSpine2_M/kangroo_rig_0003:IKSpineLocator3_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKOffsetSpine2_M/kangroo_rig_0003:IKExtraSpine2_M/kangroo_rig_0003:IKSpine2_M/kangroo_rig_0003:IKStiffOrientSpine2_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKOffsetSpine2_M/kangroo_rig_0003:IKExtraSpine2_M/kangroo_rig_0003:IKSpine2_M/kangroo_rig_0003:IKStiffOrientSpine2_M/kangroo_rig_0003:IKSpineLocator2_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKStatic
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKStatic/kangroo_rig_0003:IKOffsetArm_LStatic
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKStatic/kangroo_rig_0003:IKOffsetArm_RStatic
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKStatic/kangroo_rig_0003:PoleOffsetArm_LStatic
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKStatic/kangroo_rig_0003:PoleOffsetArm_RStatic
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKStatic/kangroo_rig_0003:PoleOffsetLeg_LStatic
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:IKSystem/kangroo_rig_0003:IKStatic/kangroo_rig_0003:PoleOffsetLeg_RStatic
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:RootSystem
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:RootSystem/kangroo_rig_0003:LegLockConstrained
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:RootSystem/kangroo_rig_0003:RootOffsetX_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:RootSystem/kangroo_rig_0003:RootOffsetX_M/kangroo_rig_0003:RootExtraX_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:FKIKMixElbow_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:FKIKMixElbow_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowOffsetChest_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowOffsetChest_M/kangroo_rig_0003:TwistFollowChest_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowOffsetChest_M/kangroo_rig_0003:TwistFollowChest_M/kangroo_rig_0003:UnTwistIKChest_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowOffsetElbow_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowOffsetElbow_L/kangroo_rig_0003:TwistFollowElbow_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowOffsetElbow_L/kangroo_rig_0003:TwistFollowElbow_L/kangroo_rig_0003:UnTwistIKElbow_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowOffsetElbow_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowOffsetElbow_R/kangroo_rig_0003:TwistFollowElbow_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowOffsetElbow_R/kangroo_rig_0003:TwistFollowElbow_R/kangroo_rig_0003:UnTwistIKElbow_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowOffsetShoulder_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowOffsetShoulder_L/kangroo_rig_0003:TwistFollowShoulder_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowOffsetShoulder_L/kangroo_rig_0003:TwistFollowShoulder_L/kangroo_rig_0003:UnTwistIKShoulder_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowOffsetShoulder_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowOffsetShoulder_R/kangroo_rig_0003:TwistFollowShoulder_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowOffsetShoulder_R/kangroo_rig_0003:TwistFollowShoulder_R/kangroo_rig_0003:UnTwistIKShoulder_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetChest_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetChest_M/kangroo_rig_0003:TwistFollowParentChest_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetChest_M/kangroo_rig_0003:TwistFollowParentChest_M/kangroo_rig_0003:UnTwistChest_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetChest_M/kangroo_rig_0003:TwistFollowParentChest_M/kangroo_rig_0003:UnTwistChest_M/kangroo_rig_0003:TwistBalancerChest_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetChest_M/kangroo_rig_0003:TwistFollowParentChest_M/kangroo_rig_0003:UnTwistChest_M/kangroo_rig_0003:UnTwistEndChest_M
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetElbow_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetElbow_L/kangroo_rig_0003:TwistFollowParentElbow_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetElbow_L/kangroo_rig_0003:TwistFollowParentElbow_L/kangroo_rig_0003:UnTwistElbow_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetElbow_L/kangroo_rig_0003:TwistFollowParentElbow_L/kangroo_rig_0003:UnTwistElbow_L/kangroo_rig_0003:TwistBalancerElbow_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetElbow_L/kangroo_rig_0003:TwistFollowParentElbow_L/kangroo_rig_0003:UnTwistElbow_L/kangroo_rig_0003:TwisterElbow0_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetElbow_L/kangroo_rig_0003:TwistFollowParentElbow_L/kangroo_rig_0003:UnTwistElbow_L/kangroo_rig_0003:TwisterElbow1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetElbow_L/kangroo_rig_0003:TwistFollowParentElbow_L/kangroo_rig_0003:UnTwistElbow_L/kangroo_rig_0003:TwisterElbow2_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetElbow_L/kangroo_rig_0003:TwistFollowParentElbow_L/kangroo_rig_0003:UnTwistElbow_L/kangroo_rig_0003:UnTwistEndElbow_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetElbow_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetElbow_R/kangroo_rig_0003:TwistFollowParentElbow_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetElbow_R/kangroo_rig_0003:TwistFollowParentElbow_R/kangroo_rig_0003:UnTwistElbow_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetElbow_R/kangroo_rig_0003:TwistFollowParentElbow_R/kangroo_rig_0003:UnTwistElbow_R/kangroo_rig_0003:TwistBalancerElbow_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetElbow_R/kangroo_rig_0003:TwistFollowParentElbow_R/kangroo_rig_0003:UnTwistElbow_R/kangroo_rig_0003:TwisterElbow0_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetElbow_R/kangroo_rig_0003:TwistFollowParentElbow_R/kangroo_rig_0003:UnTwistElbow_R/kangroo_rig_0003:TwisterElbow1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetElbow_R/kangroo_rig_0003:TwistFollowParentElbow_R/kangroo_rig_0003:UnTwistElbow_R/kangroo_rig_0003:TwisterElbow2_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetElbow_R/kangroo_rig_0003:TwistFollowParentElbow_R/kangroo_rig_0003:UnTwistElbow_R/kangroo_rig_0003:UnTwistEndElbow_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetShoulder_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetShoulder_L/kangroo_rig_0003:TwistFollowParentShoulder_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetShoulder_L/kangroo_rig_0003:TwistFollowParentShoulder_L/kangroo_rig_0003:UnTwistShoulder_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetShoulder_L/kangroo_rig_0003:TwistFollowParentShoulder_L/kangroo_rig_0003:UnTwistShoulder_L/kangroo_rig_0003:TwistBalancerShoulder_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetShoulder_L/kangroo_rig_0003:TwistFollowParentShoulder_L/kangroo_rig_0003:UnTwistShoulder_L/kangroo_rig_0003:TwisterShoulder0_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetShoulder_L/kangroo_rig_0003:TwistFollowParentShoulder_L/kangroo_rig_0003:UnTwistShoulder_L/kangroo_rig_0003:TwisterShoulder1_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetShoulder_L/kangroo_rig_0003:TwistFollowParentShoulder_L/kangroo_rig_0003:UnTwistShoulder_L/kangroo_rig_0003:TwisterShoulder2_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetShoulder_L/kangroo_rig_0003:TwistFollowParentShoulder_L/kangroo_rig_0003:UnTwistShoulder_L/kangroo_rig_0003:UnTwistEndShoulder_L
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetShoulder_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetShoulder_R/kangroo_rig_0003:TwistFollowParentShoulder_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetShoulder_R/kangroo_rig_0003:TwistFollowParentShoulder_R/kangroo_rig_0003:UnTwistShoulder_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetShoulder_R/kangroo_rig_0003:TwistFollowParentShoulder_R/kangroo_rig_0003:UnTwistShoulder_R/kangroo_rig_0003:TwistBalancerShoulder_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetShoulder_R/kangroo_rig_0003:TwistFollowParentShoulder_R/kangroo_rig_0003:UnTwistShoulder_R/kangroo_rig_0003:TwisterShoulder0_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetShoulder_R/kangroo_rig_0003:TwistFollowParentShoulder_R/kangroo_rig_0003:UnTwistShoulder_R/kangroo_rig_0003:TwisterShoulder1_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetShoulder_R/kangroo_rig_0003:TwistFollowParentShoulder_R/kangroo_rig_0003:UnTwistShoulder_R/kangroo_rig_0003:TwisterShoulder2_R
+        weight: 1
+      - path: kangroo_rig_0003:Group/kangroo_rig_0003:Main/kangroo_rig_0003:MotionSystem/kangroo_rig_0003:TwistSystem/kangroo_rig_0003:TwistFollowParentOffsetShoulder_R/kangroo_rig_0003:TwistFollowParentShoulder_R/kangroo_rig_0003:UnTwistShoulder_R/kangroo_rig_0003:UnTwistEndShoulder_R
+        weight: 1
+      - path: kangroo_rig_0003:kangaroo_body:final:pSphere3
+        weight: 1
+      - path: kangroo_rig_0003:kangaroo_body:final:pSphere3/kangroo_rig_0003:kangaroo_body:polySurface1
+        weight: 1
+      - path: kangroo_rig_0003:kangaroo_body:final:pSphere3/kangroo_rig_0003:kangaroo_body:polySurface2
+        weight: 1
+      - path: kangroo_rig_0003:kangaroo_body:final:pSphere3/kangroo_rig_0003:kangaroo_body:polySurface3
+        weight: 1
+      - path: kangroo_rig_0003:kangaroo_body:final:pSphere3/kangroo_rig_0003:kangaroo_body:polySurface4
+        weight: 1
+      - path: kangroo_rig_0003:kangaroo_body:final:pSphere3/kangroo_rig_0003:kangaroo_body:polySurface5
+        weight: 1
+      - path: kangroo_rig_0003:kangaroo_body:final:pSphere3/kangroo_rig_0003:kangaroo_body:transform1
+        weight: 1
+      - path: kangroo_rig_0003:L_jnt_ear
+        weight: 1
+      - path: kangroo_rig_0003:L_jnt_ear/kangroo_rig_0003:L_jnt_ear1
+        weight: 1
+      - path: kangroo_rig_0003:left
+        weight: 1
+      - path: kangroo_rig_0003:R_jnt_ear
+        weight: 1
+      - path: kangroo_rig_0003:R_jnt_ear/kangroo_rig_0003:R_jnt_ear1
+        weight: 1
+      - path: kangroo_rig_0003:tail
+        weight: 1
+      - path: kangroo_rig_0003:tail/kangroo_rig_0003:tail1
+        weight: 1
+      - path: kangroo_rig_0003:tail/kangroo_rig_0003:tail1/kangroo_rig_0003:tail2
+        weight: 1
+      - path: kangroo_rig_0003:tail/kangroo_rig_0003:tail1/kangroo_rig_0003:tail2/kangroo_rig_0003:tail3
+        weight: 1
+      - path: kangroo_rig_0003:tail/kangroo_rig_0003:tail1/kangroo_rig_0003:tail2/kangroo_rig_0003:tail3/kangroo_rig_0003:tail4
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: kangroo
+  assetBundleVariant: 
