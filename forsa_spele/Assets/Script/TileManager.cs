@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TileGenerator : MonoBehaviour
+public class TileManager : MonoBehaviour
 {
     public GameObject[] tilePrefabs;
     private List<GameObject> activeTiles = new List<GameObject>();
