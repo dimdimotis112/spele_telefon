@@ -8,7 +8,7 @@ public class TileManager : MonoBehaviour
     private List<GameObject> activeTiles = new List<GameObject>();
     private float spawnPos = 0;
     private float tileLength = 100;
-
+	private int lastPrefabIndex = 0;
 
     [SerializeField] private Transform player;
     private int startTiles = 6;
@@ -34,13 +34,31 @@ public class TileManager : MonoBehaviour
 
     private void SpawnTile(int tileIndex)
     {
-        GameObject nextTile = Instantiate(tilePrefabs[tileIndex], transform.forward * spawnPos, transform.rotation);
-        activeTiles.Add(nextTile);
-        spawnPos += tileLength;
+        GameObject go;
+		go = Instantiate (tilePrefabs [RandomPrefabIndex()]) as GameObject;
+        go.transform.SetParent (transform);
+		go.transform.position = Vector3.forward * spawnPos;
+		spawnPos += tileLength;
+		activeTiles.Add (go);
     }
     private void DeleteTile()
     {
         Destroy(activeTiles[0]);
         activeTiles.RemoveAt(0);
     }
+	
+	private int RandomPrefabIndex()
+	{
+		if(tilePrefabs.Length <= 1)
+			return 0;
+		
+		int randomIndex = lastPrefabIndex;
+		while(randomIndex == lastPrefabIndex)
+		{
+			randomIndex = Random.Range(0,tilePrefabs.Length);
+		}
+		
+		lastPrefabIndex = randomIndex;
+		return randomIndex;
+	}
 }
