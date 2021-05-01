@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class TileManager : MonoBehaviour
-{
+{  // Ceļš spawnojamis
     public GameObject[] tilePrefabs;
     private List<GameObject> activeTiles = new List<GameObject>();
-    private float spawnPos = 0;
+    private float  spawnPos = 0;
     private float tileLength = 100;
 	private int lastPrefabIndex = 0;
 
@@ -61,4 +61,5 @@ public class TileManager : MonoBehaviour
 		lastPrefabIndex = randomIndex;
 		return randomIndex;
 	}
-}
+	
+	}
