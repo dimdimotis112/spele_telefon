@@ -10,6 +10,7 @@ public class PlayerManager : MonoBehaviour
     void Start()
     {
         GameOver = false;
+		Time.timeScale = 1;
     }
 
     // Update is called once per frame
