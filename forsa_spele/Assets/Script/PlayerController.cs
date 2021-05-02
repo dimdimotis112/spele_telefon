@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+		
         if (SwipeController.swipeRight)
         {
             if (lineToMove < 2)
@@ -44,7 +45,8 @@ public class PlayerController : MonoBehaviour
         else if (lineToMove == 2)
             targetPosition += Vector3.right * lineDistance;
 
-        transform.position = targetPosition;
+        transform.position = Vector3.Lerp(transform.position, targetPosition, 50 * Time.deltaTime);
+		controller.center = controller.center;
     }
 
     private void Jump()
