@@ -60,4 +60,13 @@ public class PlayerController : MonoBehaviour
         dir.y += gravity * Time.fixedDeltaTime;
         controller.Move(dir * Time.fixedDeltaTime);
     }
+	
+	private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if(hit.transform.tag == "Obstacle")
+        {
+            PlayerManager.GameOver = true;
+        }
+    }
+	
 }
