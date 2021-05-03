@@ -9,7 +9,7 @@ public class ObjectSpawner : MonoBehaviour
 	// Objekti spawnojamis
 	public GameObject[] objectPrefabs;
 	private List<GameObject> activeObjects = new List<GameObject>();
-	private float OspawnPos = 0;
+	private float OspawnPos = 25;
 	private int lastObjectIndex = 0;
 	private float objectLength = 50;
 	
@@ -33,10 +33,12 @@ public class ObjectSpawner : MonoBehaviour
 			DeleteObject();
 		}
     }
-	private void SpawnObject(int objectIndex)
+	private void SpawnObject(int objectIndex = -1)
 	{
 		GameObject go;
-		go = Instantiate (objectPrefabs [RandomObjectIndex()]) as GameObject;
+		if(objectIndex == -1)
+			go = Instantiate (objectPrefabs [RandomObjectIndex()]) as GameObject;
+		else go = Instantiate (objectPrefabs[objectIndex]) as GameObject;
 		go.transform.SetParent (transform);
 		go.transform.position = Vector3.forward * OspawnPos;
 		OspawnPos += objectLength;
