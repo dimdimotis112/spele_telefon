@@ -6,9 +6,10 @@ public class PlayerController : MonoBehaviour
 {
     private CharacterController controller;
     private Vector3 dir;
-    [SerializeField] private int speed;
+    [SerializeField] public float speed;
     [SerializeField] private float jumpForce;
     [SerializeField] private float gravity;
+	public float maxSpeed;
 
     private int lineToMove = 1;
     public float lineDistance = 4;
@@ -20,6 +21,8 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+		if (speed < maxSpeed)
+		speed += 0.2f * Time.deltaTime;
 		
         if (SwipeController.swipeRight)
         {

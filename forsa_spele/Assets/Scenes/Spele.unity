@@ -1060,6 +1060,7 @@ MonoBehaviour:
   speed: 15
   jumpForce: 12
   gravity: -21
+  maxSpeed: 100
   lineDistance: 4
 --- !u!143 &1753753797
 CharacterController:
