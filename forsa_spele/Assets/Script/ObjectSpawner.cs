@@ -33,12 +33,11 @@ public class ObjectSpawner : MonoBehaviour
 			DeleteObject();
 		}
     }
-	private void SpawnObject(int objectIndex = -1)
+	private void SpawnObject(int objectIndex)
 	{
 		GameObject go;
-		if(objectIndex == -1)
-			go = Instantiate (objectPrefabs [RandomObjectIndex()]) as GameObject;
-		else go = Instantiate (objectPrefabs[objectIndex]) as GameObject;
+		go = Instantiate (objectPrefabs [RandomObjectIndex()]) as GameObject;
+		go = Instantiate (objectPrefabs[objectIndex]) as GameObject;
 		go.transform.SetParent (transform);
 		go.transform.position = Vector3.forward * OspawnPos;
 		OspawnPos += objectLength;
