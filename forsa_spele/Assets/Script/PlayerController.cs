@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class PlayerController : MonoBehaviour
     private Vector3 dir;
     [SerializeField] public float speed;
     [SerializeField] private float jumpForce;
+    [SerializeField] private int coins;
+    [SerializeField] private Text coinsText;
     [SerializeField] private float gravity;
 	public float maxSpeed;
 
@@ -71,5 +74,16 @@ public class PlayerController : MonoBehaviour
             PlayerManager.GameOver = true;
         }
     }
-	
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Coin")
+        {
+            coins++;
+            coinsText.text = coins.ToString();
+            Destroy(other.gameObject);
+        }
+    }
+
+
 }
