@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ObjectSpawner : MonoBehaviour
-{
-
-	
+{	
 	// Objekti spawnojamis
 	public GameObject[] objectPrefabs;
 	private List<GameObject> activeObjects = new List<GameObject>();
@@ -37,7 +35,6 @@ public class ObjectSpawner : MonoBehaviour
 	{
 		GameObject go;
 		go = Instantiate (objectPrefabs [RandomObjectIndex()]) as GameObject;
-		go = Instantiate (objectPrefabs[objectIndex]) as GameObject;
 		go.transform.SetParent (transform);
 		go.transform.position = Vector3.forward * OspawnPos;
 		OspawnPos += objectLength;
